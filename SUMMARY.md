@@ -36,7 +36,7 @@
    * [Common CacheFactory Methods](creating_cachebox/common_cachefactory_methods.md)
 * [Cache Cleanup/Reaping](cache_cleanupreaping/README.md)
 * [CacheBox Configuration](cachebox_configuration/README.md)
-   * [CachoeBox DSL](cachebox_configuration/cachoebox_dsl.md)
+   * [CacheBox DSL](cachebox_configuration/cachebox_dsl.md)
        * [LogBoxConfig](cachebox_configuration/logboxconfig.md)
        * [Scope Registration](cachebox_configuration/scope_registration.md)
        * [Default Cache](cachebox_configuration/default_cache.md)
