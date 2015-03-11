@@ -13,7 +13,7 @@
 CacheBox is an enterprise caching engine, aggregator and API for ColdFusion (CFML) applications.
 
 # Versioning
-WireBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
+CacheBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible. Releases will be numbered with the following format:
 
 ```
 <major>.<minor>.<patch>
@@ -27,7 +27,7 @@ And constructed with the following guidelines:
 
 
 # License
-The ColdBox Platform, WireBox is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.
+The ColdBox Platform, CacheBox is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.
 
 * Copyright by Ortus Solutions, Corp
 * ColdBox is a registered trademark by Ortus Solutions, Corp
@@ -36,13 +36,13 @@ The ColdBox Platform, WireBox is open source and licensed under the [Apache 2](h
 >**Info**: The ColdBox Websites, Documentation, logo and content have a separate license and they are a separate entity.
 
 # Discussion & Help
-The WireBox help and discussion group can be found here: https://groups.google.com/forum/#!forum/coldbox
+The CacheBox help and discussion group can be found here: https://groups.google.com/forum/#!forum/coldbox
 
 # Reporting a Bug
 We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/coldbox/coldbox-platform
 
 * By Email: [bugs@coldbox.org](mailto:bugs@coldbox.org)
-* By Jira: https://ortussolutions.atlassian.net/browse/WIREBOX
+* By Jira: https://ortussolutions.atlassian.net/browse/CACHEBOX
 
 # Professional Open Source
 
@@ -60,7 +60,7 @@ ColdBox is a professional open source software backed by [Ortus Solutions, Corp]
 # Resources
 * Official Site: http://www.coldbox.org
 * Source Code: https://github.com/coldbox/coldbox-platform
-* Bug Tracker: https://ortussolutions.atlassian.net/browse/WIREBOX
+* Bug Tracker: https://ortussolutions.atlassian.net/browse/CACHEBOX
 * Twitter: [@coldbox](http://www.twitter.com/coldbox)
 * Facebook: https://www.facebook.com/coldboxplatform
 * Google+: https://www.google.com/+ColdboxOrg
