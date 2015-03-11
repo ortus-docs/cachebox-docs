@@ -68,7 +68,3 @@
        * [Skin Templates](cachebox_report_skins/skin_templates.md)
        * [ReportHandler](cachebox_report_skins/reporthandler.md)
            * [Action Commands](cachebox_report_skins/action_commands.md)
-* [ColdBox Application Enhancements](coldbox_application_enhancements/README.md)
-   * [ColdBox Caches](coldbox_application_enhancements/coldbox_caches.md)
-   * [Resources](coldbox_application_enhancements/resources)
-
