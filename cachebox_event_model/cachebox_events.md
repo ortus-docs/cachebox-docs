@@ -1,6 +1,6 @@
 # CacheBox Events
 
-CacheBox's aggregation functionality offers a wide gamut of life cycle events that are announced at certain points in execution time. Below are the current events announced by the CacheBox *CacheFactory*. Remember, this is the *CacheFactory* and not a *CacheBox Cache Provider*.
+CacheBox's aggregation functionality offers a wide gamut of life cycle events that are announced at certain points in execution time. Below are the current events announced by the CacheBox `CacheFactory`. Remember, this is the `CacheFactory` and not a **CacheBox Cache Provider**.
 
 |Event|Data|Description|
 |--|--|--|
