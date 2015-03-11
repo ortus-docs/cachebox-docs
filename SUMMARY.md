@@ -64,7 +64,7 @@
    * [Provider Events](cachebox_event_model/cachebox_provider_events.md)
    * [Cache Listeners](cache_listeners/README.md)
 * [Cache Reporting](cache_reporting/README.md)
-   * [CacheBox Report Skins](cachebox_report_skins/README.md)
+   * [Creating Your Own Skins](cachebox_report_skins/README.md)
        * [Skin Templates](cachebox_report_skins/skin_templates.md)
        * [ReportHandler](cachebox_report_skins/reporthandler.md)
            * [Action Commands](cachebox_report_skins/action_commands.md)
