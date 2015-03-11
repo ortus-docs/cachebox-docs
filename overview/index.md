@@ -10,10 +10,6 @@ You can build your applications based on this abstract API and then be able to c
 
 CacheBox gives you the ability to manage and create your own, what we call <i>Cache Providers</i> that talk to different caching engines that you would like to configure in your applications. By aggregating them within CacheBox you get the added benefit of a rich event model for all caches to share, reporting and debugging. 
 
-
-
-These cache providers also share the same interaction API and thus gives you a nice level of abstraction, higher extensibility and flexibility when planning your applications or trying to scale them out.
-
 # The Enterprise Caching Engine
 
 Caching has been a central concern in the ColdBox Platform since its very first version. We have always been concerned with mission critical applications, scalability and the ability to provide granular caching aspects to ColdBox applications. With CacheBox we decided it was time to open up the library for usage to all ColdFusion applications, not even if they are built on ColdBox (Shame on you!).
