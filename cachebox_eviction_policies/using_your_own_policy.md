@@ -9,44 +9,43 @@ CacheBox is incredibly flexible and if you would like to create your own evictio
 Sample Policy
 
 ```javascript
-<cfcomponent output="false"
-             hint="FIFO Eviction Policy Command"
-             extends="coldbox.system.cache.policies.AbstractEvictionPolicy">
+/**
+* FIFO Eviction Policy Command
+*/
+component extends="cachebox.system.cache.policies.AbstractEvictionPolicy"{
 
-<-------------------------------------------- CONSTRUCTOR ------------------------------------------->
+	/**
+	* Constructor
+	* @cacheProvider The associated cache provider of type: cachebox.system.cache.ICacheProvider
+	*/
+	FIFO function init( required cacheProvider ){
+		super.init( arguments.cacheProvider );
 
-    <---  init --->
-    <cffunction name="init" output="false" access="public" returntype="FIFO" hint="Constructor">
-        <cfargument name="cacheProvider" type="any" required="true" hint="The associated cache provider of type: coldbox.system.cache.ICacheProvider" colddoc:generic="coldbox.system.cache.ICacheProvider"/>
-        <cfscript>
-            super.init(arguments.cacheProvider);
+        return this;
+	}
 
-            return this;
-        </cfscript>
-    </cffunction>
+	/**
+	* Execute the policy
+	*/
+	function execute(){
+		var index       = "";
 
-<-------------------------------------------- PUBLIC ------------------------------------------->
+        // Get searchable index
+        try{
+            index = getAssociatedCache()
+            	.getObjectStore()
+            	.getIndexer()
+            	.getSortedKeys( "hits", "numeric", "asc" );
+            
+            // process evictions via the abstract class
+            processEvictions( index );
+        }
+        catch(Any e){
+            getLogger().error("Error sorting via store indexer #e.message# #e.detail# #e.stackTrace#.");
+        }
+	}
 
-    <---  execute --->
-    <cffunction name="execute" output="false" access="public" returntype="void" hint="Execute the policy">
-        <cfscript>
-            var index       = "";
-
-            // Get searchable index
-            try{
-                index   = getAssociatedCache().getObjectStore().getIndexer().getSortedKeys("hits","numeric","asc");
-                // process evictions via the abstract class
-                processEvictions( index );
-            }
-            catch(Any e){
-                getLogger().error("Error sorting via store indexer #e.message# #e.detail# #e.stackTrace#.");
-            }
-        </cfscript>
-    </cffunction>
-
-<-------------------------------------------- PRIVATE ------------------------------------------->
-
-</cfcomponent>
+}
 ```
 Process Evictions: The below code is the code used to evict objects from cache
 
