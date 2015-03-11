@@ -19,14 +19,13 @@ However, if you are using CacheBox within a ColdBox application, the provider wi
 |objectStore |string |false |ConcurrentStore|The object store to use for caching objects. |
 |ColdBoxEnabled| Boolean|false|false|A flag that switches on/off the usage of either a plain vanilla CacheBox provider or a ColdBox enhanced provider. This must be true when used within a ColdBox application and it applies for the default cache ONLY.|
 
-*ColdBox ships with
+## Eviction Policies
 * LFU (Least Frequently Used)
 * LRU (Least Recently Used)
 * FIFO (First In First Out)
-<br><br>
- You can also build your own and pass the instantiation path in this setting
+* Custom: You can also build your own and pass the instantiation path in this setting
 
-**ColdBox ships with
+## Object Stores
 * ConcurrentStore - Uses concurrent hashmaps for increased performance
 * ConcurrentSoftReferenceStore - Concurrent hashmaps plus java soft references for JVM memory sensitivity
 * DiskStore - Uses a physical disk location for caching (Uses java serialization for complex objects)
