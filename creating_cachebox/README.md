@@ -3,8 +3,6 @@
 CacheBox is the core framework you need to instantiate in order to work with caching in your application. You can instantiate it with a `CacheBoxConfig` object that will hold all of your caching configurations. To configure the library you can either do it programmatically or via a struct/data DSL, the choice is yours. After the library is instantiated and configured you can ask from it a named cache provider, or interact with the caches. By default, CacheBox can be started with no configuration and it will configure itself with the default configuration that is shipped with CacheBox that can be found in the following location:
 
 ```javascript
-/coldbox/system/cache/config/DefaultConfiguration.cfc
-or
 /cachebox/system/cache/config/DefaultConfiguration.cfc
 ```
 
@@ -15,7 +13,7 @@ function configure(){
     // The CacheBox configuration structure DSL
     cacheBox = {
         // LogBox Configuration file
-        logBoxConfig = "coldbox.system.cache.config.LogBox",
+        logBoxConfig = "cachebox.system.cache.config.LogBox",
 
         // Scope registration, automatically register the cachebox factory instance on any CF scope
         // By default it registers itself on application scope
