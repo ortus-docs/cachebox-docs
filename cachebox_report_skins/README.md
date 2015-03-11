@@ -1,4 +1,4 @@
-# Reporting Skins
+# Creating Your Own Skins
 
 CacheBox also allows for the creation of reporting skins so you can create gorgeous looking reports for its caches, configurations, content, etc. The location of such skins is in the following location:
 
