@@ -76,9 +76,9 @@ controller.getCache("template") or getCache("template")
 
 > **Info** Note: Most of the examples shown in this documentation refer the default framework namespace of coldbox.system. However, if you are using CacheBox as a standalone framework, then the namespace to use is `cachebox.system`. Happy Coding!
 
-Creating CacheBox Examples <br>
-<br>
- Let's start with the simplest example of them all which is just creating CacheBox with the default configuration. The rest of the samples show different configuration options:
+## Creating CacheBox Examples
+
+Let's start with the simplest example of them all which is just creating CacheBox with the default configuration. The rest of the samples show different configuration options:
 
 ```javascript
 import cachebox.system.cache.*;
