@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * What's New With 2.0.0
 * Overview
    * [CacheBox: The Cache Aggregator & API](cachebox_the_cache_aggregator_&_api.md)
    * [CacheBox : The Enterprise Caching Engine](cachebox__the_enterprise_caching_engine.md)
