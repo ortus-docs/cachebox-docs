@@ -6,7 +6,7 @@
    * [Author](introduction/author.md)
 * [Overview](overview/index.md)
    * [CacheBox RefCard](overview/cachebox_refcard.md)
-   * [Useful Resources](useful_resources.md)
+   * [Useful Resources](overview/useful_resources.md)
    * [Features at a Glance](overview/cachebox_features.md)
    * [CacheBox Book](cachebox_book.md)
    * [Downloading CacheBox](downloading_cachebox.md)
