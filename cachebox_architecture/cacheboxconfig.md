@@ -6,8 +6,6 @@ This is the required configuration object the `CacheFactory` object needs in ord
 
 * Programmatically via method calls
 * Programmatically via a CacheBox DSL or a CacheBox DSL CFC
-* XML
-
 
 
 ```js
