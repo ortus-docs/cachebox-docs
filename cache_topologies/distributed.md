@@ -6,7 +6,13 @@ I suggest looking at all options to find what best suits your requirements.  Ple
 
 <img src="../images/cachebox_topology_distributed.png">
 
-Benefits:
+## Ortus Distributed Connector
+
+Ortus Solutions, the makers of CacheBox, have created an extension for the open source CFML engines Railo and Lucee to support caching distribution features via Couchbase (http://www.ortussolutions.com/products/couchbase-railo).
+
+> The Ortus Couchbase Extension is a Railo Server Extension that allows your server to natively connect to a Couchbase NoSQL Server cluster and leverage it for built-in caching, session/client storage and distribution, and much more. With our extension you will be able to scale and extend your Railo CFML applications with ease.
+
+##Benefits:
 * Extreme scalability
 * Cache data can survive server restarts if one goes down, better redundancy
 * Better cache availability through redundancy
@@ -14,7 +20,7 @@ Benefits:
 * Higher flexibility
 * Your storage increases as more cluster members are added
 
-Cons:
+##Cons:
 * Harder to configure and setup (Maybe, terracotta and ColdFusion 9 is super easy)
 * Not as much serialization and communication costs
 * Could need load balancing
