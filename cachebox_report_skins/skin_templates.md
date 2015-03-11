@@ -16,5 +16,5 @@ The following templates are the ones you will be skinning and placing in this fo
 |CacheReport.cfm |false|This template is usually rendered via the *renderCacheReport(cacheName)* method and it is supposed to render out a report of the cache provider using the incoming cacheName argument. This template usually has a call somewhere for the content report of such cache provider via the *renderCacheContentReport(cacheName)* method.|
 |CacheContentReport.cfm |false|This template is usually rendered via the *renderCacheContentReport(cacheName)* method and it is supposed to render out a report of the contents of the cache provider using the incoming *cacheName* argument. This table of contents can also have action buttons assigned to them.|
 
-> **Info** : All skins are rendered within the ReportHandler component. This means that you have access to this object's methods and local variables. We recommend you look at the default skin's templates for usage.
+> **Info** : All skins are rendered within the `ReportHandler` component. This means that you have access to this object's methods and local variables. We recommend you look at the default skin's templates for usage.
 
