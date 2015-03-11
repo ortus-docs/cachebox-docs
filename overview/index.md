@@ -1,6 +1,6 @@
 # CacheBox: The Cache Aggregator & API
 
-CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging (via [LogBox](http://wiki.coldbox.org/wiki/LogBox.cfm)), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API. You can then build your applications based on an abstract API and then be able to configure the caches for your applications at runtime. This gives you greater flexibility and scalability when planning and writing your applications as they can be targeted for ANY CFML engine or version.
+CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging (via [LogBox](http://logbox.ortusbooks.com)), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API. You can then build your applications based on an abstract API and then be able to configure the caches for your applications at runtime. This gives you greater flexibility and scalability when planning and writing your applications as they can be targeted for ANY CFML engine or version.
 
 <img src="../images/intro_cacheboxTriangle.png">
 
