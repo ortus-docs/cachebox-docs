@@ -1,6 +1,6 @@
 # CacheBox Provider
 
-The CacheBox provider is our very own enterprise cache implementation that has been part of the core since its initial baby step versions. Our caching engine has matured over the years and it has been proven effective, fast, scalable and very user friendly. In this release, we took all our gained knowledge and improved it considerably. We decoupled our object storages and created a way to create object storages for caching purposes via our IObjectStore interface. This allows us to get creative and be able to extend the caching provider into different and creative object stores. We fine tuned it for high availability, made it much more scalable, and expanded event caching to support multi-domain hosting and so much more. Here are the two implementations for our CacheBox provider:
+The CacheBox provider is our very own enterprise cache implementation that has been part of the core since its initial baby step versions. Our caching engine has matured over the years and it has been proven effective, fast, scalable and very user friendly. Here are the two implementations for our CacheBox provider:
 
 1. CacheBoxProvider : Our base CacheBox provider caching engine
 2. CacheBoxColdBoxProvider : A subclass of *CacheBoxProvider* that enables caching operations for ColdBox applications
