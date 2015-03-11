@@ -4,10 +4,10 @@ CacheBox's aggregation functionality offers a wide gamut of life cycle events th
 
 |Event|Data|Description|
 |--|--|--|
-|afterCacheRegistration | cache: the registered reference||
-|beforeCacheRemoval |cach: the cahce reference to remove|Called before a removeCache() operation is called on CacheBox|
-|afterCacheRemoval |cache: the cache name|Called after the cache has been removed from CacheBox. You receive only the name of the cache removed.|
-|beforeCacheReplacement | *oldCache*: the cache reference to replace<br><br>*newCache*: the new cache reference to replace with |Called right before a cache is replaced with another cache in CacheBox.|
+|afterCacheRegistration | **cache**: the registered reference||
+|beforeCacheRemoval |**cache**: the cahce reference to remove|Called before a `removeCache()` operation is called on CacheBox|
+|afterCacheRemoval |**cache**: the cache name|Called after the cache has been removed from CacheBox. You receive only the name of the cache removed.|
+|beforeCacheReplacement | **oldCache**: the cache reference to replace<br><br>**newCache**: the new cache reference to replace with |Called right before a cache is replaced with another cache in CacheBox.|
 |afterCacheFactoryConfiguration |cacheFactory: A reference to the CacheBox factory created|Called after a CacheBox instance has been created, configured and started up. This is a great interception point for creating cache loaders or on startup scripts.|
 |beforeCacheFactoryShutdown |cacheFactory: A reference to the CacheBox factory created|Called right before the CacheBox instance is shutdown gracefully|
 |afterCacheFactoryShutdown |cacheFactory: A reference to the CacheBox factory created|Called right after the CacheBox instance has been shutdown gracefully|
