@@ -65,7 +65,7 @@
    * [Cache Listeners](cache_listeners/README.md)
 * [Cache Reporting](cache_reporting/README.md)
    * [CacheBox Report Skins](cachebox_report_skins/README.md)
-       * [Sking Attributes](cachebox_report_skins/sking_attributes.md)
+       * [Skin Attributes](cachebox_report_skins/skin_attributes.md)
        * [Tag Caller](cachebox_report_skins/tag_caller.md)
        * [Skin Templates](cachebox_report_skins/skin_templates.md)
        * [ReportHandler](cachebox_report_skins/reporthandler.md)
