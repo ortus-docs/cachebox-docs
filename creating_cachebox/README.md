@@ -1,6 +1,6 @@
 # Creating CacheBox
 
-CacheBox is the core framework you need to instantiate in order to work with caching in your application. You can instantiate it with a CacheBoxConfig object that will hold all of your caching configurations. To configure the library you can either do it programmatically or via an xml file, the choice is yours. After the library is instantiated and configured you can ask from it a named cache provider, or interact with the caches. By default, CacheBox can be started with no configuration and it will configure itself with the default configuration that is shipped with CacheBox that can be found in the following location:
+CacheBox is the core framework you need to instantiate in order to work with caching in your application. You can instantiate it with a `CacheBoxConfig` object that will hold all of your caching configurations. To configure the library you can either do it programmatically or via a struct/data DSL, the choice is yours. After the library is instantiated and configured you can ask from it a named cache provider, or interact with the caches. By default, CacheBox can be started with no configuration and it will configure itself with the default configuration that is shipped with CacheBox that can be found in the following location:
 
 ```javascript
 /coldbox/system/cache/config/DefaultConfiguration.cfc
