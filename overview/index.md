@@ -14,7 +14,7 @@ You can build your applications based on this abstract API and then be able to c
 
 # The Enterprise Caching Engine
 
-Caching has been a central concern in the ColdBox Platform since its very first version. We have always been concerned with mission critical applications, scalability and the ability to provide granular caching aspects to ColdBox applications. With CacheBox we decided it was time to open up the library for usage to all ColdFusion applications, not even if they are built on ColdBox (Shame on you!).
+Caching has been a central concern in the ColdBox Platform since its very first version. We have always been concerned with mission critical applications, scalability and the ability to provide granular caching aspects to ColdFusion (CFML) applications within a single in-process caching engine.
 
 <img src="./images/intro_OBjectStores.png">
 
