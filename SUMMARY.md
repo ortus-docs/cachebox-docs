@@ -11,6 +11,7 @@
    * [Downloading CacheBox](downloading_cachebox.md)
    * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
+* Installing CacheBox
 * [Caching Concepts](caching_concepts/README.md)
    * [Caching Considerations](caching_concepts/caching_considerations.md)
    * [Cache Loading](caching_concepts/cache_loading.md)
@@ -77,5 +78,4 @@
 * [ColdBox Application Enhancements](coldbox_application_enhancements/README.md)
    * [ColdBox Caches](coldbox_application_enhancements/coldbox_caches.md)
    * [Resources](coldbox_application_enhancements/resources)
-* Installing CacheBox
 
