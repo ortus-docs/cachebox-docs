@@ -35,11 +35,14 @@ CacheBox comes with great reporting tools whether you are using it within a Cold
 
 <img src="../images/cachemonitor.jpg">
 
-That's it! You basically import the tag library from */cachebox/system/cache/report* and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information. Let's check out the attributes for this custom tag:
+That's it! You basically import the tag library from */cachebox/system/cache/report* and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information. 
+
+## Attributes
+Let's check out the attributes for this custom tag:
 
 |Attribute|Type|Required|Default|Description|
 |--|--|--|--|--|
-|cacheFactory |*coldbox.system.cache.CacheFactory *|true|---|The reference to the CacheBox factory to report on.|
+|cacheFactory |*cachebox.system.cache.CacheFactory *|true|---|The reference to the CacheBox factory to report on.|
 |baseURL |string|false|cgi.script_name |The location of the script so the tag can create links for Ajax calls and rendering calls.|
 |sking|string|false|*default*|The name of the skin to use for rendering the report. The skins are found at /coldbox/system/cache/report/skins.|
 
