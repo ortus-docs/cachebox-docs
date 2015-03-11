@@ -1,4 +1,4 @@
-# CacheBox Features
+# Features at a Glance
 
 * Cache Aggregator
     * Ability to aggregate different caching engines
