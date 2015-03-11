@@ -1,6 +1,6 @@
 # ConcurrentSoftReferenceStore
 
-The *ConcurrentSoftReferenceStore* uses a combination of concurrency maps and java soft references. In our introductory sections we introduced java soft references and how it allows us to create placeholders in memory for objects and when the JVM needs memory it has permission to collect these placeholders and thus release memory. This is truly a great combination to have and ColdBox leverages this for its template, event and view fragment caching.
+The `ConcurrentSoftReferenceStore` uses a combination of concurrency maps and java soft references. In our introductory sections we introduced java soft references and how it allows us to create placeholders in memory for objects and when the JVM needs memory it has permission to collect these placeholders and thus release memory. This is truly a great combination to have and ColdBox leverages this for its template, event and view fragment caching.
 
 ![](../images/cachebox_softreference.png)
 
