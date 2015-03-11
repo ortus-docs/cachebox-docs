@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Overview
    * [CacheBox: The Cache Aggregator & API](cachebox_the_cache_aggregator_&_api.md)
    * [CacheBox : The Enterprise Caching Engine](cachebox__the_enterprise_caching_engine.md)
    * [CacheBox Features](cachebox_features.md)
@@ -9,8 +10,7 @@
    * [Downloading CacheBox](downloading_cachebox.md)
    * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
-* [Useful Resources](useful_resources.md)
-* Overview
+   * [Useful Resources](useful_resources.md)
 * [Caching Concepts](caching_concepts/README.md)
    * [Caching Considerations](caching_concepts/caching_considerations.md)
    * [Cache Loading](caching_concepts/cache_loading.md)
