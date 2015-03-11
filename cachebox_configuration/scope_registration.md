@@ -2,7 +2,7 @@
 
 CacheBox has a nifty little feature that enables itself to leech onto a specific scope in memory. It basically can auto-register itself in your environment with no further need for persistence or just to expand its location. By default CacheBox registers itself in application scope with a key of **cacheBox**, but you have complete control on how the scope registration should work.
 
-Customizable Keys:
+##Customizable Keys:
 
 |Key|Type|Required|Default|Description|
 |--|--|--|--|--|
