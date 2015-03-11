@@ -10,11 +10,11 @@ The following templates are the ones you will be skinning and placing in this fo
 
 |Template|Required|Description|
 |--|--|--|
-|cachebox.js|true|The JavaScript file that will be automatically loaded into the header content via a cfhtmlhead call. You can put any JavaScript you like here or load more JavaScript files via your skin templates.|
-|cachebox.css|true|The css file that will be automatically loaded into the header content via a *cfhtmlhead* call.|
-|CachePanel.cfm |true|The main template that displays the report monitor to the user. This skin could potentially hold action buttons and other parts of the cache report rendered in specific locations by using rendering methods (see ReportHandler section).|
-|CacheReport.cfm |false|This template is usually rendered via the *renderCacheReport(cacheName)* method and it is supposed to render out a report of the cache provider using the incoming cacheName argument. This template usually has a call somewhere for the content report of such cache provider via the *renderCacheContentReport(cacheName)* method.|
-|CacheContentReport.cfm |false|This template is usually rendered via the *renderCacheContentReport(cacheName)* method and it is supposed to render out a report of the contents of the cache provider using the incoming *cacheName* argument. This table of contents can also have action buttons assigned to them.|
+| cachebox.js | true | The JavaScript file that will be automatically loaded into the header content via a `cfhtmlhead` call. You can put any JavaScript you like here or load more JavaScript files via your skin templates.|
+| cachebox.css | true | The css file that will be automatically loaded into the header content via a `cfhtmlhead` call.|
+| CachePanel.cfm | true | The main template that displays the report monitor to the user. This skin could potentially hold action buttons and other parts of the cache report rendered in specific locations by using rendering methods (see ReportHandler section).|
+| CacheReport.cfm | false | This template is usually rendered via the `renderCacheReport(cacheName)` method and it is supposed to render out a report of the cache provider using the incoming `cacheName` argument. This template usually has a call somewhere for the content report of such cache provider via the `renderCacheContentReport(cacheName)` method.|
+| CacheContentReport.cfm | false | This template is usually rendered via the `renderCacheContentReport(cacheName)` method and it is supposed to render out a report of the contents of the cache provider using the incoming `cacheName` argument. This table of contents can also have action buttons assigned to them.|
 
 > **Info** : All skins are rendered within the `ReportHandler` component. This means that you have access to this object's methods and local variables. We recommend you look at the default skin's templates for usage.
 
