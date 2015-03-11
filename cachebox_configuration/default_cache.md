@@ -34,7 +34,7 @@ However, if you are using CacheBox within a ColdBox application, the provider wi
 
 > **Caution** : Please note that each object store could have more configuration properties that you will need to add to the configuration structure. To find out about these extra configuration properties, please see the Object Store's section.
 
-Example:
+**Example:**
 
 ```javascript
 // The CacheBox configuration structure DSL
