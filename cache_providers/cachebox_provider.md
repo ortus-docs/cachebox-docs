@@ -2,8 +2,8 @@
 
 The CacheBox provider is our very own enterprise cache implementation that has been part of the core since its initial baby step versions. Our caching engine has matured over the years and it has been proven effective, fast, scalable and very user friendly. Here are the two implementations for our CacheBox provider:
 
-1. CacheBoxProvider : Our base CacheBox provider caching engine
-2. CacheBoxColdBoxProvider : A subclass of *CacheBoxProvider* that enables caching operations for ColdBox applications
+1. `CacheBoxProvider` : Our base CacheBox provider caching engine
+2. `CacheBoxColdBoxProvider` : A subclass of `CacheBoxProvider` that enables caching operations for ColdBox applications
 
 ## Properties
 
