@@ -1,5 +1,5 @@
 # CacheBox DSL
-In order to create a simple data CFC, just create a new CFC with one required method on it called configure(). This is where you will define the caching configuration data structure in a structure called cacheBox in the variables scope:
+In order to create a simple data CFC, just create a new CFC with one required method on it called `configure()`. This is where you will define the caching configuration data structure in a structure called `cacheBox` in the `variables` scope:
 
 ```javascript
 **
