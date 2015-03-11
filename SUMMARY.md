@@ -12,6 +12,7 @@
    * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
 * Installing CacheBox
+   * Installation
 * [Caching Concepts](caching_concepts/README.md)
    * [Caching Considerations](caching_concepts/caching_considerations.md)
    * [Cache Loading](caching_concepts/cache_loading.md)
