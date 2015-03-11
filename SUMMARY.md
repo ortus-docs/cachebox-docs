@@ -9,7 +9,6 @@
    * [Useful Resources](overview/useful_resources.md)
    * [Features at a Glance](overview/cachebox_features.md)
    * [Downloading CacheBox](downloading_cachebox.md)
-   * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
 * [Installing CacheBox](installation/index.md)
    * Installation
