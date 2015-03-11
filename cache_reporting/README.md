@@ -3,12 +3,11 @@
 CacheBox comes with great reporting tools whether you are using it within a ColdBox application or standalone. This section deals with how to do a-la-carte reporting by using the custom tags that CacheBox ships with. Below is the simplest form of usage for the monitor reporting tags:
 
 ```javascript
-<---  Import Report Tags: use /cachebox/system if using standalone --->
-<cfimport prefix="cachebox" taglib="/coldbox/system/cache/report">
+<cfimport prefix="cachebox" taglib="/cachebox/system/cache/report">
 
 <---  Create CacheBox with default configuration --->
 <cfif structKeyExists(url,"reinit") OR NOT structKeyExists(application,"cacheBox")>
-    <cfset application.cacheBox   = createObject("component","coldbox.system.cache.CacheFactory").init()>
+    <cfset application.cacheBox   = new cachebox.system.cache.CacheFactory()>
 <cfelse>
     <cfset cachebox = application.cacheBox>
 </cfif>
@@ -36,7 +35,7 @@ CacheBox comes with great reporting tools whether you are using it within a Cold
 
 <img src="../images/cachemonitor.jpg">
 
-That's it! You basically import the tag library from */coldbox/system/cache/report* or */cachebox/system/cache/report* and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information. Let's check out the attributes for this custom tag:
+That's it! You basically import the tag library from */cachebox/system/cache/report* and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information. Let's check out the attributes for this custom tag:
 
 |Attribute|Type|Required|Default|Description|
 |--|--|--|--|--|
