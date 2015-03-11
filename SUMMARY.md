@@ -8,7 +8,6 @@
    * [CacheBox RefCard](overview/cachebox_refcard.md)
    * [Useful Resources](overview/useful_resources.md)
    * [Features at a Glance](overview/cachebox_features.md)
-   * [CacheBox Book](cachebox_book.md)
    * [Downloading CacheBox](downloading_cachebox.md)
    * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
