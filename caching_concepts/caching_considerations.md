@@ -22,6 +22,6 @@ Whenever you are leveraging the power of caching, we recommend that you also tak
 
 <img src="../images/cachebox_cachelayers.png">
 
-* Cache Limits : There are definite benefits of demarcating limits on your cache. This involves setting up default limits for timeouts, idle timeouts and maximum number of objects within a cache. Studies have shown that leverage memory sensitive data constructs with fixed limit caching parameters can increase performance and overall JVM stability. Look at our cache resources for these studies as they are very interesting.
+* **Cache Limits** : There are definite benefits of demarcating limits on your cache. This involves setting up default limits for timeouts, idle timeouts and maximum number of objects within a cache. Studies have shown that leverage memory sensitive data constructs with fixed limit caching parameters can increase performance and overall JVM stability. Look at our cache resources for these studies as they are very interesting.
 
 
