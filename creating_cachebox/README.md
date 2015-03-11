@@ -50,7 +50,7 @@ function configure(){
 }
 ```
 
-If you are using CacheBox within a ColdBox application you do not need to worry about creating or even configuring the framework, as ColdBox ships already with a default configuration for ColdBox applications. However, you also have full control of configuring CacheBox at your application level (Please see the coldbox application configuration section). The default configuration for a ColdBox application can be found in the following location:
+If you are using CacheBox within a ColdBox application you do not need to worry about creating or even configuring the framework, as ColdBox ships already with a default configuration for ColdBox applications. However, you also have full control of configuring CacheBox at your application level (Please see the [ColdBox application configuration section](../coldbox_application_enhancements/README.md)). The default configuration for a ColdBox application can be found in the following location:
 
 ```javascript
 /coldbox/system/web/config/CacheBox.cfc
