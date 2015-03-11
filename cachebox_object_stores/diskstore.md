@@ -8,7 +8,7 @@ Anyways, this storage will look at the incoming target object to cache and if it
 
 |Key|Type|Required|Default|Description|
 |--|--|--|--|--|
-|autoExpandPath |Boolean |false |true |A flag that indicates if the store should use expandPath() to figure out the path to store objects in.|
+|autoExpandPath |Boolean |false |true |A flag that indicates if the store should use `expandPath()` to figure out the path to store objects in.|
 |directoryPath |string |true |---|The directory path to use to store cached objects under. This can be relative or absolute. |
 
 
