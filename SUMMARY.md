@@ -35,7 +35,7 @@
    * [IColdboxApplicationCache](cachebox_architecture/icoldboxapplicationcache.md)
 * [Creating CacheBox](creating_cachebox/README.md)
    * [Common CacheFactory Methods](creating_cachebox/common_cachefactory_methods.md)
-   * [Cache Cleanup/Reaping](cache_cleanupreaping/README.md)
+   * [Cache Cleanup/Reaping](creating_cachebox/cache_cleanup_reaping.md)
 * [CacheBox Configuration](cachebox_configuration/README.md)
    * [CacheBox DSL](cachebox_configuration/cachebox_dsl.md)
        * [LogBoxConfig](cachebox_configuration/logboxconfig.md)
