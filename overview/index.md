@@ -12,8 +12,6 @@ These cache providers also share the same interaction API and thus gives you a n
 
 You can build your applications based on this abstract API and then be able to configure the caches for your applications at runtime. This gives you greater flexibility and scalability when planning and writing your applications as they can be targeted for ANY CFML engine or version.
 
-
-
 # The Enterprise Caching Engine
 
 Caching has been a central concern in the ColdBox Platform since its very first version. We have always been concerned with mission critical applications, scalability and the ability to provide granular caching aspects to ColdBox applications. With CacheBox we decided it was time to open up the library for usage to all ColdFusion applications, not even if they are built on ColdBox (Shame on you!).
