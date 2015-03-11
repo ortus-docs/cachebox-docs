@@ -39,6 +39,6 @@ cacheBox = {
 };
 ```
 
-That's it folks! You can either write inline CacheBox DSL configuration, use by convention a *CacheBox.cfc* data CFC or use a configFile approach for external file loading. Pick your poison!
+That's it folks! You can either write inline CacheBox DSL configuration, use by convention a `CacheBox.cfc` data CFC or use a configFile approach for external file loading. Pick your poison!
 
 
