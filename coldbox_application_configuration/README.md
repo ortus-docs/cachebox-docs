@@ -23,7 +23,8 @@ ColdBox allows for a programmatic approach via the ColdBox configuration object:
 
 * Is there a `cachebox` DSL variable defined in the configuration structure?
 * **False**:
-        * Does a `CacheBox.cfc` exist in the application's `config` folder?
+    * Does a `CacheBox.cfc` exist in the application's `config` folder?
+        * **True** : Use that for configuration
         * False: Configure CacheBox with default framework settings found in `/coldbox/system/web/config/CacheBox.cfc`
 * **True**:
         * Have you defined a `configFile` key in the `cacheBox` DSL structure?
