@@ -77,4 +77,5 @@
 * [ColdBox Application Enhancements](coldbox_application_enhancements/README.md)
    * [ColdBox Caches](coldbox_application_enhancements/coldbox_caches.md)
    * [Resources](coldbox_application_enhancements/resources)
+* Installing CacheBox
 
