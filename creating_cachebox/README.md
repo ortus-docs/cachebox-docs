@@ -121,6 +121,3 @@ config.scopeRegistration( true, "application" )
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );
 ```
-
-
-
