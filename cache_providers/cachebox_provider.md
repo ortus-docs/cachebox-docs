@@ -5,7 +5,7 @@ The CacheBox provider is our very own enterprise cache implementation that has b
 1. CacheBoxProvider : Our base CacheBox provider caching engine
 2. CacheBoxColdBoxProvider : A subclass of *CacheBoxProvider* that enables caching operations for ColdBox applications
 
-<h3 style="color:grey">Properties</h3>
+## Properties
 
 |Key|Type|Required|Default|Description|
 |--|--|--|--|--|
