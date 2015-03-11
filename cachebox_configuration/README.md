@@ -4,10 +4,9 @@ Let's delve deeper into the rabbit hole and explore how to configure this bad bo
 
 This is the CFC that you will use to configure CacheBox and its constructor can be called with the following optional arguments which determines your configuration approach:
 
-* none - Means you will be using the CFCs methods for configuration
-* XMLConfig - The absolute path to the XML configuration file
-* CFCConfig - The object reference to the simple data CFC that contains the CacheBox DSL
-* CFCConfigPath - The instantiation path of the simple data CFC that contains the CacheBox DSL
+* `none` - Means you will be using the CFCs methods for configuration
+* `CFCConfig` - The object reference to the simple data CFC that contains the CacheBox DSL
+* `CFCConfigPath` - The instantiation path of the simple data CFC that contains the CacheBox DSL
 
 No matter what configuration you decide to use, you will always have to instantiate CacheBox with a *CacheBoxConfig* object of type: *coldbox.system.cache.config.CacheBoxConfig*. However, you have the option of either working with this CFC directly or creating a more portable configuration. This portable configuration we denote as a simple data CFC that contains the CacheBox configuration data that represents our CacheBox DSL (Domain Specific Language). This DSL is exactly the same if you are using CacheBox standalone or in any ColdBox application, so it definitely has its benefits.
 
