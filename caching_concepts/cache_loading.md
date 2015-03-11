@@ -5,7 +5,7 @@ When working with a cache engine you also have to consider how you will get data
 * **Lazy Loading or Reactive Loading** : This type of loading is the most typical way to load data into a cache and it happens once data is requested from an external process. Below is a typical example using CacheBox in a service layer call:
 
 
-```javascript
+```js
 /**
 * Get some blog categories from the database or cache
 */
