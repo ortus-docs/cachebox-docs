@@ -8,4 +8,4 @@ cachebox.reapAll();
 
 That's it! Just call on the *reapAll()* method and this will make sure that your caches clean themselves according to the reaping frequency selected in your configuration file.
 
-> **Caution**: Reaping frequency and cleanup only applies to the CacheBox Provider.
+> **Info**: Reaping frequency and cleanup only applies to the CacheBox Provider.
