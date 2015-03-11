@@ -46,7 +46,7 @@ Let's check out the attributes for this custom tag:
 | baseURL | string | false | `cgi.script_name` | The location of the script so the tag can create links for Ajax calls and rendering calls.|
 | skin | string | false | `default` | The name of the skin to use for rendering the report. The skins are found at `/cachebox/system/cache/report/skins` |
 
-> **Important** Each skin can implement its own attributes, so always check the skins documentation to see what extra attributes it implements.
+> **Info** Each skin can implement its own attributes, so always check the skins documentation to see what extra attributes it implements.
 
 Here are some examples of the tag usage:
 
