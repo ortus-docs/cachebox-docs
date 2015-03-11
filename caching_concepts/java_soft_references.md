@@ -9,4 +9,3 @@ Why is this? Well, a soft reference is nothing but a wrapper class that wraps an
 
 In summary, soft references are what determine if an object is still available or not. CacheBox cache can then run maintenance on itself and clean out all of its references for you if you are using the `ConcurrentSoftReferenceStore` object store.
 
-
