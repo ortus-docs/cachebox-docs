@@ -5,7 +5,7 @@
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
 * [Overview](overview/index.md)
-   * [CacheBox Features](cachebox_features.md)
+   * [Features at a Glance](cachebox_features.md)
    * [CacheBox RefCard](cachebox_refcard.md)
    * [CacheBox Book](cachebox_book.md)
    * [Downloading CacheBox](downloading_cachebox.md)
