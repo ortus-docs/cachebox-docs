@@ -1,6 +1,6 @@
 # CacheFactory
 
-**class** : `coldbox.system.cache.CacheFactory`
+**class** : `cachebox.system.cache.CacheFactory`
 
 
 The `CacheFactory` object is the most important object as it represents CacheBox. The class path for this object is `coldbox.system.cache.CacheFactory` or in standalone mode `cachebox.system.cache.CacheFactory`. 
