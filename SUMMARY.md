@@ -44,7 +44,7 @@
        * [Caches](cachebox_configuration/caches.md)
        * [Listeners](cachebox_configuration/listeners.md)
    * [CacheBox Config Object](cachebox_configuration/cachebox_config_object.md)
-   * [ColdBox Application Configuration](coldbox_application_configuration/README.md)
+   * [ColdBox Configuration](coldbox_application_configuration/README.md)
        * [Programmatic Configuration](coldbox_application_configuration/programmatic_configuration.md)
        * [XML](coldbox_application_configuration/xml.md)
 * [Cache Providers](cache_providers/README.md)
