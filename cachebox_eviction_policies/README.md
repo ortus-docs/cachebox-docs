@@ -12,7 +12,7 @@ Below is a refresher on what an eviction policy means:
 
 Please note that when a cache element is evicted from the cache it usually is expired first so it can be gracefully collected when the CacheBox reaping procedures occur. Therefore, you might see sometimes that the cache actually goes above the maximum objects defined, this is normal.
 
-> **Important** Please note that no eternal objects are ever evicted from the CacheBox provider. Eternal objects live as long as the CacheBox instance lives for (most likely application scope timeout). So please take that into consideration.
+> **Caution** Please note that no eternal objects are ever evicted from the CacheBox provider. Eternal objects live as long as the CacheBox instance lives for (most likely application scope timeout). So please take that into consideration.
 
 ColdBox ships with the following eviction policies:
 
