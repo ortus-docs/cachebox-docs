@@ -4,14 +4,14 @@ A replicated cache can exist in multiple application server machines and their c
 
 <img src="../images/cachebox_topology_replicated.png">
 
-Benefits:
+##Benefits:
 * Better scalability
 * Cache data can survive server restarts if one goes down, better redundancy
 * Better cache availability through redundancy
 * Higher storage availability
 * Ideal for few application servers
 
-Cons:
+##Cons:
 * A little bit harder to configure and setup
 * High serialization and network communication costs
 * Could need load balancing
