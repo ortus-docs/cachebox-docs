@@ -1,6 +1,6 @@
 # CF Providers
 
-Our *CFColdboxProvider* is an implementation specifically written for Adobe ColdFusion 9.0.1 and beyond. This provider leverages the [EHCache](http://ehcache.org/) engine within ColdFusion 9 and extends the native ColdFusion capabilities by talking to the [EHCache](http://ehcache.org/) sessions natively via Java. In this manner we are able to do things like:
+Our `CFColdboxProvider` is an implementation specifically written for Adobe ColdFusion 9.0.1 and beyond. This provider leverages the [EHCache](http://ehcache.org/) engine within ColdFusion 9 and extends the native ColdFusion capabilities by talking to the [EHCache](http://ehcache.org/) sessions natively via Java. In this manner we are able to do things like:
 
 * Get extended cached object metadata
 * Get overall cache statistics
@@ -12,7 +12,7 @@ Our *CFColdboxProvider* is an implementation specifically written for Adobe Cold
 
 ## Properties
 
-Each CacheBox provider can have its own set of configuration properties it needs for operation. Our CF providers also have some. Please note, all properties other than "cacheName" are passed through to the underlying EHCache implementation in ColdFusion. The default values may differ if you have edited the ehcache.xml file on your server.
+Each CacheBox provider can have its own set of configuration properties it needs for operation. Our CF providers also have some. Please note, all properties other than "cacheName" are passed through to the underlying EHCache implementation in ColdFusion. The default values may differ if you have edited the `ehcache.xml` file on your server.
 
 |Property|Type|Required|Default|Description|
 |--|--|--|--|--|
@@ -29,4 +29,4 @@ Each CacheBox provider can have its own set of configuration properties it needs
 |timeToIdleSeconds |integer|false|*86400*|The idle time in seconds. Used if a cfcache tag does not specify an idleTime attribute.|
 |timeToLiveSeconds |integer|false|*86400*|The timeout time in seconds. Used if a cfcache tag does not specify a timespan attribute.|
 
-> **Info** Note: Please note that you can configure more than 1 CFColdboxProvider cache engine in your applications that c  talk to more than one referenced ColdFusion (EHCache) custom cache.
+> **Info** Please note that you can configure more than 1 `CFColdboxProvider` cache engine in your applications that can talk to more than one referenced ColdFusion (EHCache) custom cache.
