@@ -1,6 +1,6 @@
 # CacheBox Provider Events
 
-Each cache provider has the potential of announcing life cycle events as it implements it. If you are a cache provider author, then you can use the aggregated EventManager to register, process and announce events a-la-carte. So let's investigate each provider's life cycle events:
+Each cache provider has the potential of announcing life cycle events as it implements it. If you are a cache provider author, then you can use the aggregated `EventManager` to register, process and announce events a-la-carte. So let's investigate each provider's life cycle events:
 
 #### CacheBoxProvider-CacheBoxColdBoxProvider Events
 
