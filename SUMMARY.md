@@ -48,7 +48,6 @@
 * [Cache Providers](cache_providers/README.md)
    * [Couchbase Providers](cache_providers/couchbase_providers.md)
    * [CF Providers](cache_providers/cf_providers.md)
-       * [Properties](cache_providers/properties.md)
    * [Railo Providers](cache_providers/railo_providers.md)
    * [Mock Provider](cache_providers/mock_provider.md)
    * [CacheBox Provider](cache_providers/cachebox_provider.md)
