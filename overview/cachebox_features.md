@@ -12,9 +12,9 @@
     * No need to create it, configure it or manage it if used within a ColdBox Application
 * Solid Core
     * Multi-Threaded
-    * Based on Java Concurrency Classes
-    * Multiple Eviction Policies: LRU,LFU and FIFO
-    * Memory Management & Memory Sensitive caching based on Java Soft References
+    * Based on [Java Concurrency Classes](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
+    * Multiple [Eviction Policies](http://en.wikipedia.org/wiki/Cache_algorithms): LRU,LFU and FIFO
+    * Memory Management & Memory Sensitive caching based on [Java Soft References](http://docs.oracle.com/javase/7/docs/api/java/lang/ref/SoftReference.html)
     * High Load Tested
     * Fully Documented
 * Extensible & Flexible
