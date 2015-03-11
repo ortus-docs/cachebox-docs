@@ -12,5 +12,5 @@ This is the required configuration object the `CacheFactory` object needs in ord
 
 ```js
 config = new cachebox.system.cache.config.CacheBoxConfig();
-cachebox = new cachebox.system.cache.CacheFactory( cacheBoxConfig );
+cachebox = new cachebox.system.cache.CacheFactory( config );
 ```
