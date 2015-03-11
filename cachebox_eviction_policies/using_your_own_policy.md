@@ -3,7 +3,8 @@
 CacheBox is incredibly flexible and if you would like to create your own eviction policy, you can! Below are a set of easy steps on how to do this:
 
 1. Create a simple CFC that implements the following class `cachebox.system.cache.policies.IEvictionPolicy` or use our convenience abstract class and inherit from `cachebox.system.cache.policies.AbstractEvictionPolicy`
-2. Create your own execute() method that will evict items (We recommend looking at existing policies to get an insight on how to do this) 3. Use the policy instantiation path in your cachebox provider properties
+2. Create your own `execute()` method that will evict items (We recommend looking at existing policies to get an insight on how to do this) 
+3. Use the policy instantiation path in your `cachebox` provider `properties`
 
 Sample Policy
 
