@@ -7,7 +7,7 @@ The caches element is in itself a structure of configuration data for aggregatin
 |provider|string|true|---|The instantiation path of the cache that must implement our `ICacheProvider` interface.|
 |properties|struct|false| `{}` |A structure of name-value pairs of configuration data for the cache to declare.|
 
-Example:
+**Example**:
 
 ```javascript
 // Register all the custom named caches you like here
