@@ -95,32 +95,31 @@ Here are some more configuration samples:
 
 ```javascript
 // Create CacheBox with default configuration
-cacheBox = createObject("component","cachebox.system.cache.CacheFactory").init();
+cacheBox = new cachebox.system.cache.CacheFactory( );
 
 
-// Create the config object with an XML configuration file
-config = createObject("component","cachebox.system.cache.config.CacheBoxConfig").init(expandPath('cachebox.xml'));
 // Create CacheBox instance
-cacheBox = createObject("component","cachebox.system.cache.CacheFactory").init(config);
+cacheBox = new cachebox.system.cache.CacheFactory( config );
 
 // Create the config object as a CacheBox DSL Simple CFC
-dataCFC = createObject("component","MyCacheBoxConfig");
-config = createObject("component","cachebox.system.cache.config.CacheBoxConfig").init(CFCConfig=dataCFC);
+dataCFC = new MyCacheBoxConfig();
+config = new cachebox.system.cache.config.CacheBoxConfig( CFCConfig=dataCFC );
 // Create CacheBox instance
-cacheBox = createObject("component","cachebox.system.cache.CacheFactory").init(config);
+cacheBox = new cachebox.system.cache.CacheFactory( config );
 
 
 // Create the config object as a CacheBox DSL Simple CFC path only
-config = createObject("component","cachebox.system.cache.config.CacheBoxConfig").init(CFCConfigPath="MyCacheBoxConfig");
+config = new cachebox.system.cache.config.CacheBoxConfig( CFCConfigPath="MyCacheBoxConfig" );
 // Create CacheBox instance
-cacheBox = createObject("component","cachebox.system.cache.CacheFactory").init(config);
+cacheBox = new cachebox.system.cache.CacheFactory( config );
 
 // Create CacheBoxConfig, call configuration methods on it and then create the factory
-config = createObject("component","cachebox.system.cache.config.CacheBoxConfig").init();
+config = new cachebox.system.cache.config.CacheBoxConfig();
 // Configure programmatically: You can chain methods, woot!
-config.scopeRegistration(true,"application").default(objectStore="DiskStore",maxObject=200);
+config.scopeRegistration( true, "application" )
+	.default( objectStore="DiskStore", maxObject=200 );
 // Create CacheBox instance
-cacheBox = createObject("component","cachebox.system.cache.CacheFactory").init(config);
+cacheBox = new cachebox.system.cache.CacheFactory( config );
 ```
 
 
