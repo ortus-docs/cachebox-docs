@@ -4,5 +4,5 @@ CacheBox also sports a very nice event model that can announce several cache lif
 
 Of course, if you are within a ColdBox application, you get the benefit of all the potential of ColdBox Interceptors and if you are in standalone mode, well, you just get the listener and that's it. 
 
-Each event execution also comes with a structure of name-value pairs called `interceptData` that can contain objects, variables and all kinds of data that can be useful for listeners to use. This data is sent by the event caller and each event caller decides what this data sent is. So let's start investigating first the CacheBox life cycle events.
+Each event execution also comes with a structure of name-value pairs called `interceptData` that can contain objects, variables and all kinds of data that can be useful for listeners to use. This data is sent by the event caller and each event caller decides what this data sent is.
 
