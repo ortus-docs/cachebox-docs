@@ -26,12 +26,11 @@ However, if you are using CacheBox within a ColdBox application, the provider wi
 * Custom: You can also build your own and pass the instantiation path in this setting
 
 ## Object Stores
-* ConcurrentStore - Uses concurrent hashmaps for increased performance
-* ConcurrentSoftReferenceStore - Concurrent hashmaps plus java soft references for JVM memory sensitivity
-* DiskStore - Uses a physical disk location for caching (Uses java serialization for complex objects)
-* JDBCStore - Uses a JDBC datasource for caching (Uses java serialization for complex objects)
-<br><br>
- You can also build your own and pass the instantiation path in this setting.
+* **ConcurrentStore** - Uses concurrent hashmaps for increased performance
+* **ConcurrentSoftReferenceStore** - Concurrent hashmaps plus java soft references for JVM memory sensitivity
+* **DiskStore** - Uses a physical disk location for caching (Uses java serialization for complex objects)
+* **JDBCStore** - Uses a JDBC datasource for caching (Uses java serialization for complex objects)
+* **Custom** You can also build your own and pass the instantiation path in this setting.
 
 > *Important* : Please note that each object store could have more configuration properties that you will need to add to the configuration structure. To find out about these extra configuration properties, please see the Object Store's section.
 
