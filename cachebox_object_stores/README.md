@@ -10,6 +10,6 @@ So if you will be creating your own object stores, make sure they implement the 
 
 So let's start investigating each of the object stores that are shipped with CacheBox.
 
-> **Important** Please note that each object store can have extra properties that need to be set in your cache configuration file.
+> **Caution** Please note that each object store can have extra properties that need to be set in your cache configuration file.
 
 
