@@ -10,7 +10,7 @@
    * [Features at a Glance](overview/cachebox_features.md)
    * [System Requirements](system_requirements.md)
 * [Installing CacheBox](installation/index.md)
-   * Installation
+   * [Installation](installation/installation.md)
 * [Caching Concepts](caching_concepts/README.md)
    * [Caching Considerations](caching_concepts/caching_considerations.md)
    * [Cache Loading](caching_concepts/cache_loading.md)
