@@ -18,7 +18,7 @@ ColdBox ships with the following eviction policies:
 
 |Policy|Description|
 |--|--|
-|LRU (Least Recently Used) |With this eviction policy, the cache discards the least recently used items first. *This is the default policy*|
+|LRU (Least Recently Used) |With this eviction policy, the cache discards the least recently used items first. **This is the default policy**|
 |LFU (Least Frequently Used) |This policy counts how often an item has been accessed and it will discard the items that have been used the least.|
 |FIFO (First In First Out) |Just like it sounds, first one in, first one out. Great for implementing sized queues|
 |FIFO (First In First Out) |Just like it sounds, first one in, first one out. Great for implementing sized queues|
