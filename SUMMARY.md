@@ -9,7 +9,7 @@
    * [Downloading CacheBox](downloading_cachebox.md)
    * [Installing CacheBox](installing_cachebox.md)
    * [System Requirements](system_requirements.md)
-   * [Useful Resources](useful_resources.md)
+* [Useful Resources](useful_resources.md)
 * Overview
 * [Caching Concepts](caching_concepts/README.md)
    * [Caching Considerations](caching_concepts/caching_considerations.md)
