@@ -37,7 +37,7 @@ CacheBox comes with great reporting tools whether you are using it within a Cold
 
 That's it! You basically import the tag library from */cachebox/system/cache/report* and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information. 
 
-## Attributes
+## Reporting Attributes
 Let's check out the attributes for this custom tag:
 
 |Attribute|Type|Required|Default|Description|
