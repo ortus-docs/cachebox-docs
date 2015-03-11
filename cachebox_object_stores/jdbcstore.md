@@ -4,7 +4,7 @@ The *JDBCStore* is a nice object storage that leverages a single database table 
 
 This cache provider is a great way to use for flash variables using the ColdBox [Flash RAM](http://wiki.coldbox.org/wiki/FlashRam.cfm).
 
-<h3 style="color:grey">Properties</h3>
+## Properties 
 
 |Key|Type|Required|Default|Description|
 |--|--|--|--|--|
