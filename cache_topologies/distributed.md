@@ -6,7 +6,7 @@ I suggest looking at all options to find what best suits your requirements.  Ple
 
 <img src="../images/cachebox_topology_distributed.png">
 
-## Ortus Distributed Connector
+## Ortus Couchbase Extension
 
 Ortus Solutions, the makers of CacheBox, have created an extension for the open source CFML engines Railo and Lucee to support caching distribution features via Couchbase (http://www.ortussolutions.com/products/couchbase-railo).
 
