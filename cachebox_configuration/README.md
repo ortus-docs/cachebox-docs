@@ -1,6 +1,8 @@
 # CacheBox Configuration
 
-Let's delve deeper into the rabbit hole and explore how to configure this bad boy. Our preference is the programmatic approach via a simple data CFC that can encapsulate the CacheBox configuration in one single component. However, at the end of the day all configuration approaches will use the *CacheBoxConfig* object's methods in some manner. This is the CFC that you will use to configure CacheBox and its constructor can be called with the following optional arguments which determines your configuration approach:
+Let's delve deeper into the rabbit hole and explore how to configure this bad boy. Our preference is the programmatic approach via a simple data CFC that can encapsulate the CacheBox configuration in one single component. However, at the end of the day all configuration approaches will use the `CacheBoxConfig` object's methods in some manner. 
+
+This is the CFC that you will use to configure CacheBox and its constructor can be called with the following optional arguments which determines your configuration approach:
 
 * none - Means you will be using the CFCs methods for configuration
 * XMLConfig - The absolute path to the XML configuration file
