@@ -2,7 +2,7 @@
 
 Each cache provider has the potential of announcing life cycle events as it implements it. If you are a cache provider author, then you can use the aggregated `EventManager` to register, process and announce events a-la-carte. So let's investigate each provider's life cycle events:
 
-#### CacheBoxProvider-CacheBoxColdBoxProvider Events
+## CacheBoxProvider-CacheBoxColdBoxProvider Events
 
 |Event|Data|Description|
 |--|--|--|
@@ -12,7 +12,7 @@ Each cache provider has the potential of announcing life cycle events as it impl
 |afterCacheClearAll | cache: the cache provider| Called after a *clearAll()* has been issued on the cache|
 |afterCacheElementExpired |*cache*: the cache provider<br><br>*cacheObjectKey*: the key of the expired object|Called after a cache element has been expired from the cache|
 
-#### CFProvider-CFColdboxProvider Events
+## CFProvider-CFColdboxProvider Events
 
 |Event|Data|Description|
 |--|--|--|
