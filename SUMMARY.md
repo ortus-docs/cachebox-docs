@@ -61,7 +61,7 @@
    * [Using Your Own Policy](cachebox_eviction_policies/using_your_own_policy.md)
 * [CacheBox Event Model](cachebox_event_model/README.md)
    * [CacheBox Events](cachebox_event_model/cachebox_events.md)
-   * [CacheBox Provider Events](cachebox_event_model/cachebox_provider_events.md)
+   * [Provider Events](cachebox_event_model/cachebox_provider_events.md)
    * [Cache Listeners](cache_listeners/README.md)
 * [Cache Reporting](cache_reporting/README.md)
 * [CacheBox Report Skins](cachebox_report_skins/README.md)
