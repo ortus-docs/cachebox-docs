@@ -61,20 +61,20 @@ In summary, CacheBox has two modes of operation:
 * Standalone Framework
 * ColdBox Application
 
-If you have downloaded CacheBox as a standalone framework, then please make sure you use the correct namespace path (cachebox.system). Also, once you create CacheBox make sure that you persist it somewhere, either in Application scope or any other scope or a dependency injection context (WireBox). ColdBox application users already have an instance of CacheBox created for you in every application and it is stored in the main application controller and can be retrieved via the following function:
+If you have downloaded CacheBox as a standalone framework, then please make sure you use the correct namespace path (`cachebox.system`). Also, once you create CacheBox make sure that you persist it somewhere, either in Application scope or any other scope or a dependency injection context (WireBox). ColdBox application users already have an instance of CacheBox created for you in every application and it is stored in the main application controller and can be retrieved via the following function:
 
 ```javascript
 // Get a reference to CacheBox
 controller.getCacheBox();
 
 // Get a reference to the default cache provider
-controller.getColdboxOCM() or getColdboxOCM()
+controller.getCache() or getCache()
 
 // Get a reference to a named cache provider
-controller.getColdboxOCM("template") or getColdboxOCM("template")
+controller.getCache("template") or getCache("template")
 ```
 
-> **Info** Note: Most of the examples shown in this documentation refer the default framework namespace of coldbox.system. However, if you are using CacheBox as a standalone framework, then the namespace to use is cachebox.system. Happy Coding!
+> **Info** Note: Most of the examples shown in this documentation refer the default framework namespace of coldbox.system. However, if you are using CacheBox as a standalone framework, then the namespace to use is `cachebox.system`. Happy Coding!
 
 Creating CacheBox Examples <br>
 <br>
