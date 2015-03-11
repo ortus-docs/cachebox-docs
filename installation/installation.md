@@ -6,7 +6,7 @@ If you are using CacheBox within a ColdBox application context, then CacheBox is
 cachebox = new cachebox.system.cache.CacheFactory();
 ```
 
-> **Note** Please remember that if you use the standalone version the namespace is `cachebox.system.ioc` and if you use the ColdBox application version it is `coldbox.system.ioc`. From this point on, we will use the standalone namespace for simplicity.
+> **Note** Please remember that if you use the standalone version the namespace is `cachebox.system.cache` and if you use the ColdBox application version it is `coldbox.system.cache`. From this point on, we will use the standalone namespace for simplicity.
 <br>
 
 
