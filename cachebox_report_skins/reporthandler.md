@@ -1,6 +1,6 @@
 # ReportHandler
 
-This object is in charge of rendering skin templates and also executing processing commands. The custom tag creates this object and prepares it for usage, so don't worry about it, just know how to use it. The following are the variable compositions this object has and therefore you can use them in your skin templates:
+This object is in charge of rendering skin templates and also executing processing commands. The custom tag creates this object and prepares it for usage, so do not worry about it, just know how to use it. The following are the variable compositions this object has and therefore you can use them in your skin templates:
 
 |Variable|Type|Description|
 |--|--|--|
@@ -15,11 +15,11 @@ This tag also has the following methods that you might be interested in:
 
 |Return Type|Method|
 |--|--|
-|void|processCommands(*[command=],[cacheName=default],[cacheEntry=])*<br> Execute and process a cacheBox command |
-|any|renderCachePanel() <br> Render the *CachePanel.cfm* template|
-|any|renderCacheReport(cacheName) <br>Render the *CacheReport.cfm* template which renders typically the report information about a specific cache provider|
-|any|renderCacheContentReport(cacheName)<br> Render the *CacheContentReport.cfm* template which typically renders the report of the content of the cache provider |
-|any|renderCacheDumper(cacheName,cacheEntry) <br> Tries to retrieve the *cacheEntry* from the cacheName provider and dumps it|
+| void | `processCommands(*[command=],[cacheName=default],[cacheEntry=])` <br> Execute and process a cacheBox command |
+| any  | `renderCachePanel()` <br> Render the `CachePanel.cfm` template|
+| any  | `renderCacheReport(cacheName)` <br>Render the `CacheReport.cfm` template which renders typically the report information about a specific cache provider|
+| any  | `renderCacheContentReport(cacheName)` <br> Render the `CacheContentReport.cfm` template which typically renders the report of the content of the cache provider |
+| any  | `renderCacheDumper(cacheName,cacheEntry)`  <br> Tries to retrieve the `cacheEntry` from the cacheName provider and dumps it|
 
 For example, here is a snippet of the CachePanel.cfm template to designate where the cache report for a specific cache provider will be rendered by default:
 
