@@ -5,7 +5,6 @@
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
 * [Overview](overview/index.md)
-   * [CacheBox: The Cache Aggregator & API](cachebox_the_cache_aggregator_&_api.md)
    * [CacheBox : The Enterprise Caching Engine](cachebox__the_enterprise_caching_engine.md)
    * [CacheBox Features](cachebox_features.md)
    * [CacheBox RefCard](cachebox_refcard.md)
