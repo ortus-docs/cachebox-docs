@@ -55,7 +55,7 @@ If you are using CacheBox within a ColdBox application you do not need to worry 
 ```javascript
 /coldbox/system/web/config/CacheBox.cfc
 ```
-
+## Modes of Operation
 In summary, CacheBox has two modes of operation:
 
 * Standalone Framework
