@@ -16,14 +16,14 @@ You can build your applications based on this abstract API and then be able to c
 
 Caching has been a central concern in the ColdBox Platform since its very first version. We have always been concerned with mission critical applications, scalability and the ability to provide granular caching aspects to ColdFusion (CFML) applications within a single in-process caching engine.
 
-<img src="./images/intro_OBjectStores.png">
+<img src="../images/intro_OBjectStores.png">
 
 Foremost, CacheBox behaves as an in-memory cache designed for objects, data, HTML fragments or anything you like. It has various tuning parameters such as default object timeout, default last access timeout, maximum objects to have in cache, a JVM memory threshold, a reaping frequency, eviction policies, an event model and so much more.
 
-We also make use of object stores (inspired by EHCache) for the CacheBox caching engine. This means that CacheBox can be configured to store its cached objects in different locations other than memory. This gives us great flexibility because we offer a wide gamut of storage options plus the concept of actually building your own storages. Currently we offer object stores based on concurrency classes, java soft references (memory sensitive), file storage, JDBC replication, and more coming soon.
+We also make use of object stores (inspired by [EHCache](http://ehcache.org)) for the CacheBox caching engine. This means that CacheBox can be configured to store its cached objects in different locations other than memory. This gives us great flexibility because we offer a wide gamut of storage options plus the concept of actually building your own storages. Currently we offer object stores based on concurrency classes, java soft references (memory sensitive), file storage, JDBC replication, and more coming soon.
 
 ## Cache Debugger & Reporter
 
-<img src="./images/intro_cachemonitor.jpg">
+<img src="../images/intro_cachemonitor.jpg">
 
 We have a great cache debugger where you can visualize all your configured caches right from within your application. You can see the performance of the cache, the contents and even issue commands to the targeted cache provider.
