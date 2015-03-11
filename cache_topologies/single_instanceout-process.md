@@ -5,14 +5,14 @@ A single instance can be an out-process cache that leaves on its own JVM typical
 <img src="../images/cachebox_topology_outprocess.png">
 
 
-Benefits
+##Benefits:
 * Still access is fast as it is in the same machine
 * Easy to setup and configure
 * Might require a windows or *nix service so the cache engine starts up with the machine
 * Can leverage its own JVM heap, memory, GC, etc and have more granularities.
 * Out of process cache servers can be clustered also to provide you with better redundancy. However, once you start clustering them, each of those servers will need a way to replicate and synchronize each other.
 
-Cons:
+##Cons:
 * Still shares resources in the server
 * Limited scalability
 * Needs startup scripts
