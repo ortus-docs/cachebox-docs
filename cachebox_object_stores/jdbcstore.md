@@ -2,8 +2,6 @@
 
 The `JDBCStore` is a nice object storage that leverages a single database table to keep track of its objects. This is great for simple or small scale clusters that need centralized caching. It also follows suit that complex objects are serialized into the tables and simple objects are just saved. The object store can even create the database table for you if need be via its own object store custom properties.
 
-This cache provider is a great way to use for flash variables using the ColdBox [Flash RAM](http://wiki.coldbox.org/wiki/FlashRam.cfm).
-
 ## Properties 
 
 |Key|Type|Required|Default|Description|
