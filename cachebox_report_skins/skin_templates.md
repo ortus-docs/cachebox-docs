@@ -1,10 +1,8 @@
 # Skin Templates
 
-The first step of creating skin templates is to create its holding folder inside of the skins directory. So if we were starting a new skin called goodness then you would create a new folder in the following directory:
+The first step of creating skin templates is to create its holding folder inside of the `skins` directory. So if we were starting a new skin called `goodness` then you would create a new folder in the following directory:
 
 ```javascript
-/coldbox/system/cache/report/skins/goodness
-or
 /cachebox/system/cache/report/skins/goodness
 ```
 
