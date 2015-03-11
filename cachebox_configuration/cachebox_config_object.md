@@ -1,6 +1,8 @@
 # CacheBox Config Object
 
-The previous CacheBox DSL is a great way to configure CacheBox as it is very portable. However, you can also configure CacheBox by calling methods on the CacheBoxConfig object, which is exactly what we do when we read the CacheBox DSL. Below are the main methods used for configuring CacheBox which match exactly to the DSL items, so please refer to the DSL items for definitions and settings. Also, for all the methods in this object, check out the [API Docs](http://www.coldbox.org/documents/api/CacheBoxDocs-1.0/)
+The previous CacheBox DSL is a great way to configure CacheBox as it is very portable. However, you can also configure CacheBox by calling methods on the CacheBoxConfig object, which is exactly what we do when we read the CacheBox DSL. 
+
+Below are the main methods used for configuring CacheBox which match exactly to the DSL items, so please refer to the DSL items for definitions and settings. Also, for all the methods in this object, check out the [API Docs](http://apidocs.ortussolutions.com/cachebox/current)
 
 * init([string XMLConfig=], [any CFCConfig], [string CFCConfigPath])
 
