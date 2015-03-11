@@ -6,7 +6,7 @@ CacheBox is incredibly flexible and if you would like to create your own evictio
 2. Create your own `execute()` method that will evict items (We recommend looking at existing policies to get an insight on how to do this) 
 3. Use the policy instantiation path in your `cachebox` provider `properties`
 
-Sample Policy
+##Sample Policy
 
 ```javascript
 /**
@@ -47,7 +47,8 @@ component extends="cachebox.system.cache.policies.AbstractEvictionPolicy"{
 
 }
 ```
-Process Evictions: The below code is the code used to evict objects from cache
+##Process Evictions: 
+The below code is the code used to evict objects from cache
 
 ```javascript
 <---  processEvictions --->
@@ -91,7 +92,7 @@ Process Evictions: The below code is the code used to evict objects from cache
 </cffunction>
 ```
 
-Configuration File
+##Configuration File
 
 ```javascript
 defaultCache = {
