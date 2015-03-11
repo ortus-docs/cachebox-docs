@@ -1,6 +1,6 @@
 # Manual Installation
 
-If you are using CacheBox within a ColdBox application context, then CacheBox is part of the platform. Just install ColdBox normally. If you are using CacheBox standalone, just drop CacheBox in your application root or create a mapping called `CacheBox` that points to the installation folder. If you can run the following snippet, then CacheBox is installed correctly:
+If you are using CacheBox within a ColdBox application context, then CacheBox is part of the platform. Just install ColdBox normally. If you are using CacheBox standalone, just drop CacheBox in your application root or create a mapping called `cachebox` that points to the installation folder. If you can run the following snippet, then CacheBox is installed correctly:
 
 ```
 CacheBox = new wirebox.system.ioc.Injection();
