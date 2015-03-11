@@ -1,8 +1,10 @@
 # Default Cache
 
-The *defaultCache* element is in itself a structure of configuration data for the default cache provider of type *coldbox.system.cache.providers.CacheBoxProvider*. This is a reserved cache name and it is MANDATORY to declare and its name or type cannot be changed. However, if you are using CacheBox within a ColdBox application, the provider will switch itself to coldbox.system.cache.providers.CacheBoxColdBoxProvider by using the coldboxEnabled key. So let's see the configuration keys for our default cache.
+The `defaultCache` element is in itself a structure of configuration data for the default cache provider of type `cachebox.system.cache.providers.CacheBoxProvider`. This is a reserved cache name and it is MANDATORY to declare and its name or type cannot be changed. 
 
-Default Cache Properties:
+However, if you are using CacheBox within a ColdBox application, the provider will switch itself to `cachebox.system.cache.providers.CacheBoxColdBoxProvider` by using the `coldboxEnabled` key. So let's see the configuration keys for our default cache.
+
+##Default Cache Properties:
 
 |Key|Type|Required|Default|Description|
 |--|--|--|--|--|
