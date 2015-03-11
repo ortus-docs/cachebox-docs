@@ -66,7 +66,7 @@ Please note the `configure()` method in the standalone listener. This is necessa
 
 As you can see from the examples above, each Listener component can listen to multiple events. Now you might be asking yourself, in what order are these listeners executed in? Well, they are executed in the order they are declared in either the ColdBox configuration file as interceptors or the CacheBox configuration file as listeners.
 
-> **Important** Order is EXTREMELY important for interceptors/listeners. So please make sure you order them in the declaration file.
+> **Caution** Order is **EXTREMELY** important for interceptors/listeners. So please make sure you order them in the declaration file in the order you want them to fire.
 
 
 
