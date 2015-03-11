@@ -13,7 +13,7 @@ Example:
 // Register all the custom named caches you like here
 caches = {
     sampleCache1 = {
-        provider="coldbox.system.cache.providers.CacheBoxProvider",
+        provider="cachebox.system.cache.providers.CacheBoxProvider",
         properties = {
             objectDefaultTimeout="20",
             useLastAccessTimeouts="false",
@@ -25,7 +25,7 @@ caches = {
         }
     },
     sampleCache2 = {
-        provider = "coldbox.system.cache.providers.CFColdboxProvider"
+        provider = "cachebox.system.cache.providers.CFColdboxProvider"
     }
 },
 ```
