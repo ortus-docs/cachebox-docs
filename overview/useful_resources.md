@@ -1,7 +1,7 @@
 # Useful Resources
 
 
-* [CacheBox Release Notes](http://wiki.coldbox.org/wiki/CacheBox-ReleaseNotes.cfm)
+* [CacheBox Release Notes](https://ortussolutions.atlassian.net/browse/CACHEBOX)
 * http://en.wikipedia.org/wiki/Cache
 * http://ehcache.org/documentation/getting_started.html
 * http://www.oracle.com/technetwork/middleware/coherence
