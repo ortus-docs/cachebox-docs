@@ -8,3 +8,9 @@ This is the required configuration object the `CacheFactory` object needs in ord
 * Programmatically via a CacheBox DSL or a CacheBox DSL CFC
 * XML
 
+
+
+```js
+cacheBoxConfig = new cachebox.system.cache.config.CacheBoxConfig();
+cachebox = new cachebox.system.cache.CacheFactory( cacheBoxConfig );
+```
