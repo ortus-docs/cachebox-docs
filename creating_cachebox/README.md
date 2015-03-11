@@ -57,6 +57,7 @@ If you are using CacheBox within a ColdBox application you do not need to worry 
 ```
 
 In summary, CacheBox has two modes of operation:
+
 * Standalone Framework
 * ColdBox Application
 
