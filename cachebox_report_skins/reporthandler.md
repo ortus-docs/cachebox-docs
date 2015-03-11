@@ -4,10 +4,10 @@ This object is in charge of rendering skin templates and also executing processi
 
 |Variable|Type|Description|
 |--|--|--|
-|cacheBox|*coldbox.system.cache.CacheFactory *|A reference to the running CacheBox cache factory|
+|cacheBox|`cachebox.system.cache.CacheFactory` |A reference to the running CacheBox cache factory|
 |baseURL |string |The baseURL attribute passed via the tag configuration|
 |sking|string|The skin attribute passed via the tag configuration|
-|skinPath|string|The non-expanded path to the skin in use. e.g. /coldbox/system/cache/report/skin/MyCoolSkin|
+|skinPath|string|The non-expanded path to the skin in use. e.g. `/cachebox/system/cache/report/skin/MyCoolSkin`|
 |attributes |struct|A reference to the attributes structure passed via the tag|
 |caller|template|A reference to the caller page of the custom tag.|
 
