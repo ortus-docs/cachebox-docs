@@ -27,9 +27,9 @@ ColdBox allows for a programmatic approach via the ColdBox configuration object:
         * **True** : Use that for configuration
         * **False**: Configure CacheBox with default framework settings found in `/coldbox/system/web/config/CacheBox.cfc`
 * **True**:
-        * Have you defined a `configFile` key in the `cacheBox` DSL structure?
-            * **True**: Then use that value to pass into the configuration object so it can load CacheBox using that configuration CFC
-            * **False**: The configuration data (CacheBox DSL) is going to be defined inline here so use that structure for configuration
+    * Have you defined a `configFile` key in the `cacheBox` DSL structure?
+        * **True**: Then use that value to pass into the configuration object so it can load CacheBox using that configuration CFC
+        * **False**: The configuration data (CacheBox DSL) is going to be defined inline here so use that structure for configuration
 
 > **Info** Note: The configuration DSL is exactly the same as you have seen in before with the only distinction that you can add a configFile key that can point to an external configuration file (XML or CFC)
 
