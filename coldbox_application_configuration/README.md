@@ -22,10 +22,10 @@ Now, this is all nice and dandy, but what if I want to configure CacheBox "MY WA
 ColdBox allows for a programmatic approach via the ColdBox configuration object: `Coldbox.cfc`. So let's look at how the framework loader looks at your configuration for CacheBox configuration details:
 
 * Is there a `cachebox` DSL variable defined in the configuration structure?
-    * **False**:
-        * Does a *CacheBox.cfc* exist in the application's config folder?
-        * False: Configure CacheBox with default framework settings found in */coldbox/system/web/config/CacheBox.cfc*
-    * **True**:
+* **False**:
+        * Does a `CacheBox.cfc` exist in the application's `config` folder?
+        * False: Configure CacheBox with default framework settings found in `/coldbox/system/web/config/CacheBox.cfc`
+* **True**:
         * Have you defined a `configFile` key in the `cacheBox` DSL structure?
             * **True**: Then use that value to pass into the configuration object so it can load CacheBox using that configuration CFC
             * **False**: The configuration data (CacheBox DSL) is going to be defined inline here so use that structure for configuration
