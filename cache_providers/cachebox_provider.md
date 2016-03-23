@@ -20,14 +20,15 @@ The CacheBox provider is our very own enterprise cache implementation that has b
 |objectStore |string |false|*ConcurrentStore*|ConcurrentStore 	The object store to use for caching objects.**|
 |ColdboxEnabled |Boolean|false|false|A flag that switches on/off the usage of either a plain vanilla CacheBox provider or a ColdBox enhanced provider. This must be true when used within a ColdBox application and it applies for the default cache ONLY.|
 
-> *Coldbox ships with the following eviction policies
+\* Coldbox ships with the following eviction policies
 
+* LRU (Least Recently Used)
 * LFU (Least Frequently Used)
-* LFU (Least Frequently Used)
-* LFU (Least Frequently Used)
+* FIFO (First In First Out)
+* LIFO (Last In First Out)
 * Custom: You can also build your own and pass the instantiation path in this setting
 
-> **ColdBox ships with the following object stores:
+\** ColdBox ships with the following object stores:
 
 * ConcurrentStore - Uses concurrent hashmaps for increased performance
 * ConcurrentSoftReferenceStore - Concurrent hashmaps plus java soft references for JVM memory sensitivity
