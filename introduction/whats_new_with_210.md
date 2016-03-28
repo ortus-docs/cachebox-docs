@@ -15,7 +15,8 @@ This release is part of the ColdBox 4.2.0 update and contains the following upda
         
 ## Improvements
 
-* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-31'>CACHEBOX-31</a>] -         Update the documentation URL in `box.json`
-* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-36'>CACHEBOX-36</a>] -         Convert CacheBox LRU policy to script
-
-        
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-31'>CACHEBOX-31</a>] -         Update the documentation URL in box.json
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-33'>CACHEBOX-33</a>] -         Convert CacheBox&#39;s FIFO policy to script
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-34'>CACHEBOX-34</a>] -         Convert CacheBox&#39;s LFU policy to script
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-35'>CACHEBOX-35</a>] -         Convert CacheBox&#39;s LIFO policy to script
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-36'>CACHEBOX-36</a>] -         Convert CacheBox&#39;s LRU policy to script
