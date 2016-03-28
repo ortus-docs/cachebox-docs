@@ -5,7 +5,7 @@ This release is part of the ColdBox 4.2.0 update and contains the following upda
 ## Bugs
 
 <ul>
-<li>[<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-27'>CACHEBOX-27</a>] -         Railo/Lucee provider was not passing attributes on `clearByKeySnippets`
+<li>[<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-27'>CACHEBOX-27</a>] -         Railo/Lucee provider was not passing attributes on ```clearByKeySnippets```
 </li>
 <li>[<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-37'>CACHEBOX-37</a>] -         Custom LogboxConfig will NEVER be used if Cachebox is used in Standalone Mode
 </li>
