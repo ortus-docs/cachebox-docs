@@ -4,6 +4,7 @@
    * [What's New With 2.0.0](introduction/whats_new_with_200.md)
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
+   * What's New With 2.1.0
 * [Overview](overview/index.md)
    * [CacheBox RefCard](overview/cachebox_refcard.md)
    * [Useful Resources](overview/useful_resources.md)
@@ -68,3 +69,4 @@
        * [Skin Templates](cachebox_report_skins/skin_templates.md)
        * [ReportHandler](cachebox_report_skins/reporthandler.md)
            * [Action Commands](cachebox_report_skins/action_commands.md)
+
