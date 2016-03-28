@@ -10,7 +10,7 @@ This release is part of the ColdBox 4.2.0 update and contains the following upda
             
 ## New Features
 
-* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-28'>CACHEBOX-28</a>] -         Add ability to clear an entire cache provider from the cache reporter
+* [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-28'>CACHEBOX-28</a>] -         Add ability to clear an entire cache provider from the cache reporter UI
 * [<a href='https://ortussolutions.atlassian.net/browse/CACHEBOX-29'>CACHEBOX-29</a>] -         Update reporter to allow for reporting Couchbase or Memcached caches
         
 ## Improvement
