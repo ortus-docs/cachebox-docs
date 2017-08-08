@@ -19,7 +19,7 @@
     ],
     "pluginsConfig": {
     	"edit-link": {
-            "base": "https://github.com/coldbox/cachebox-docs/tree/master",
+            "base": "https://github.com/ortus-docs/cachebox-docs/tree/master",
             "label": "Edit This Page"
         },
         "github": {
