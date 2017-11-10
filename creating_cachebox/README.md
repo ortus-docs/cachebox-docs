@@ -117,7 +117,7 @@ cacheBox = new cachebox.system.cache.CacheFactory( config );
 config = new cachebox.system.cache.config.CacheBoxConfig();
 // Configure programmatically: You can chain methods, woot!
 config.scopeRegistration( true, "application" )
-	.default( objectStore="DiskStore", maxObject=200 );
+	.defaultCache( objectStore="DiskStore", maxObject=200 );
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );
 ```
