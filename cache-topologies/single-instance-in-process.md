@@ -10,7 +10,7 @@ Definitely having a single instance approach is the easiest to setup and use. Ho
 
 * Fast access to data as it leaves in the same processes
 * Easy to setup and configure
-* One easy configuration if you are using ColdFusion 9, Railo or Lucee
+* One easy configuration if you are using ColdFusion 11 or Lucee
 * You can also have multiple CacheBox caching providers running on one machine \(Greater Flexibility\)
 * You can also have multiple CacheBox instances running on one machine or have a shared scope instance \(Greater Flexibility\)
 * Each of your applications, whether ColdBox or not, can leverage CacheBox and create and configure caches \(Greater Flexibility\)
