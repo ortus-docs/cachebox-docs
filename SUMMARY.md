@@ -16,7 +16,12 @@
   * [Useful Resources](overview/useful-resources.md)
   * [Features at a Glance](overview/features-at-a-glance.md)
 * [Installing CacheBox](installing-cachebox/README.md)
-  * [Installation](installing-cachebox/installation.md)
+* [Creating CacheBox](creating-cachebox/README.md)
+  * [Common CacheFactory Methods](creating-cachebox/common-cachefactory-methods.md)
+  * [Cache Cleanup/Reaping](creating-cachebox/cache-cleanup-reaping.md)
+
+## For The Geeks
+
 * [Caching Concepts](caching-concepts/README.md)
   * [Caching Considerations](caching-concepts/caching-considerations.md)
   * [Cache Loading](caching-concepts/cache-loading.md)
@@ -39,9 +44,6 @@
   * [IEvictionPolicy](cachebox-architecture/ievictionpolicy.md)
   * [AbstractEvictionPolicy](cachebox-architecture/abstractevictionpolicy.md)
   * [IColdboxApplicationCache](cachebox-architecture/icoldboxapplicationcache.md)
-* [Creating CacheBox](creating-cachebox/README.md)
-  * [Common CacheFactory Methods](creating-cachebox/common-cachefactory-methods.md)
-  * [Cache Cleanup/Reaping](creating-cachebox/cache-cleanup-reaping.md)
 
 ## Configuration
 
@@ -83,4 +85,3 @@
     * [Skin Templates](cache-reporting/creating-your-own-skins/skin-templates.md)
     * [ReportHandler](cache-reporting/creating-your-own-skins/reporthandler/README.md)
       * [Action Commands](cache-reporting/creating-your-own-skins/reporthandler/action-commands.md)
-
