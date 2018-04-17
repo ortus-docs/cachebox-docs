@@ -46,5 +46,5 @@ box install cachebox@be
 
 `coldbox.system.cache`
 
-> **Note** All examples in this book are based on the standalone namespace.
+> **Note** All examples in this book are based on the **standalone** namespace.
 
