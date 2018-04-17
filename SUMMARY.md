@@ -43,6 +43,9 @@
 * [Creating CacheBox](creating-cachebox/README.md)
   * [Common CacheFactory Methods](creating-cachebox/common-cachefactory-methods.md)
   * [Cache Cleanup/Reaping](creating-cachebox/cache-cleanup-reaping.md)
+
+## Configuration
+
 * [CacheBox Configuration](cachebox-configuration/README.md)
   * [CacheBox DSL](cachebox-configuration/cachebox-dsl/README.md)
     * [LogBoxConfig](cachebox-configuration/cachebox-dsl/logboxconfig.md)
@@ -52,6 +55,9 @@
     * [Listeners](cachebox-configuration/cachebox-dsl/listeners.md)
   * [CacheBox Config Object](cachebox-configuration/cachebox-config-object.md)
   * [ColdBox Configuration](cachebox-configuration/coldbox-configuration.md)
+
+## Usage
+
 * [Cache Providers](cache-providers/README.md)
   * [Couchbase Providers](cache-providers/couchbase-providers.md)
   * [CF Providers](cache-providers/cf-providers.md)
@@ -64,6 +70,9 @@
   * [DiskStore](cachebox-object-stores/diskstore.md)
   * [JDBCStore](cachebox-object-stores/jdbcstore.md)
   * [BlackholeStore](cachebox-object-stores/blackholestore.md)
+
+## Advanced Usage
+
 * [CacheBox Eviction Policies](cachebox-eviction-policies/README.md)
   * [Using Your Own Policy](cachebox-eviction-policies/using-your-own-policy.md)
 * [CacheBox Event Model](cachebox-event-model/README.md)
