@@ -60,7 +60,6 @@
 ## Usage
 
 * [Cache Providers](cache-providers/README.md)
-  * [Couchbase Providers](cache-providers/couchbase-providers.md)
   * [CF Providers](cache-providers/cf-providers.md)
   * [Lucee Providers](cache-providers/railo-providers.md)
   * [Mock Provider](cache-providers/mock-provider.md)
