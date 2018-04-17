@@ -8,7 +8,7 @@ The source code for this book is hosted in GitHub: [https://github.com/ortus-doc
 
 ## External Trademarks & Copyrights
 
-Flash, Flex, ColdFusion, and Adobe are registered trademarks and copyrights of Adobe Systems, Inc. Railo is a trademark and copyright of Railo Technologies, GmbH.
+Flash, Flex, ColdFusion, and Adobe are registered trademarks and copyrights of Adobe Systems, Inc.
 
 ## Notice of Liability
 
