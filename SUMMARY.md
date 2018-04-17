@@ -1,8 +1,16 @@
 # Summary
 
+## Intro
+
+* [Introduction](README.md)
+* What's New With 5.0.0
+* [What's New With 2.1.0](whats-new-with-2.1.0.md)
 * [What's New With 2.0.0](whats-new-with-2.0.0.md)
 * [About This Book](about-this-book.md)
 * [Author](author.md)
+
+## Getting Started
+
 * [Overview](overview/README.md)
   * [CacheBox RefCard](overview/cachebox-refcard.md)
   * [Useful Resources](overview/useful-resources.md)
@@ -67,9 +75,4 @@
     * [Skin Templates](cache-reporting/creating-your-own-skins/skin-templates.md)
     * [ReportHandler](cache-reporting/creating-your-own-skins/reporthandler/README.md)
       * [Action Commands](cache-reporting/creating-your-own-skins/reporthandler/action-commands.md)
-
-## Intro
-
-* [Introduction](README.md)
-  * [What's New With 2.1.0](whats-new-with-2.1.0.md)
 
