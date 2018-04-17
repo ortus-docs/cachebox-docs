@@ -26,10 +26,14 @@ cachebox = new cachebox.system.cache.CacheFactory();
 
 ## CommandBox Installation
 
-You can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) to install the standalone version of CacheBox
+You can leverage [CommandBox](https://www.ortussolutions.com/products/commandbox) to install the standalone version of CacheBox
 
 ```bash
+# Latest CacheBox
 box install cachebox
+
+# Bleeding Edge
+box install cachebox@be
 ```
 
 ## Namespaces
