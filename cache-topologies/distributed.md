@@ -8,9 +8,9 @@ I suggest looking at all options to find what best suits your requirements. Plea
 
 ## Ortus Couchbase Extension
 
-[Ortus Solutions](http://www.ortussolutions.com/products/couchbase-railo), the makers of CacheBox, have created a commercial extension for the open source CFML engines Railo and Lucee to support caching distribution features via Couchbase \([http://www.ortussolutions.com/products/couchbase-railo](http://www.ortussolutions.com/products/couchbase-railo)\).
+[Ortus Solutions](https://www.ortussolutions.com/products/couchbase-lucee), the makers of CacheBox, have created a commercial extension for the open source CFML engine Lucee to support caching distribution features via Couchbase \([https://www.ortussolutions.com/products/couchbase-lucee](https://www.ortussolutions.com/products/couchbase-lucee)\).
 
-> The Ortus Couchbase Extension is a Railo Server Extension that allows your server to natively connect to a Couchbase NoSQL Server cluster and leverage it for built-in caching, session/client storage and distribution, and much more. With our extension you will be able to scale and extend your Railo CFML applications with ease.
+> The Ortus Couchbase Extension is a Lucee Server Extension that allows your server to natively connect to a Couchbase NoSQL Server cluster and leverage it for built-in caching, session/client storage and distribution, and much more. With our extension you will be able to scale and extend your Railo CFML applications with ease.
 
 The extension will enhance your Railo/Lucee server with some of the following [capabilities](http://www.ortussolutions.com/#capabilities):
 
