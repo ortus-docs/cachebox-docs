@@ -5,6 +5,14 @@ CacheBox has been designed to work either as a standalone framework or within th
 * [Download CacheBox Standalone](http://www.coldbox.org/download)
 * [Download API Docs](http://www.coldbox.org/api)
 
+## System Requirements
+
+CacheBox has been designed to work under the following CFML Engines:
+
+* Adobe ColdFusion 11+
+* Lucee 4.5+
+
+
 ## Standalone
 
 `cachebox.system.cache`

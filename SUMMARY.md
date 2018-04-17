@@ -15,7 +15,6 @@
   * [CacheBox RefCard](overview/cachebox-refcard.md)
   * [Useful Resources](overview/useful-resources.md)
   * [Features at a Glance](overview/features-at-a-glance.md)
-  * [System Requirements](overview/system-requirements.md)
 * [Installing CacheBox](installing-cachebox/README.md)
   * [Installation](installing-cachebox/installation.md)
 * [Caching Concepts](caching-concepts/README.md)
