@@ -1,6 +1,6 @@
 # Railo Providers
 
-Our `RailoProvider` is an implementation specifically written for Railo/Lucee
+Our `LuceeProvider` is an implementation specifically written for Lucee
 
 ## Properties
 
