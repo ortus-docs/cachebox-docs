@@ -24,7 +24,7 @@ We highly encourage contribution to this book and our open source software. The 
 
 ### Shalom Children's Home
 
-![Shalom Children&apos;s Home](https://github.com/ortus/cachebox-documentation/tree/ab018778c240f4fc205da6f06b6f97a9cbe029e9/images/shalom.jpg)
+![Shalom Children&apos;s Home](https://github.com/ortus-docs/cachebox-docs/tree/ab018778c240f4fc205da6f06b6f97a9cbe029e9/images/shalom.jpg)
 
 Shalom Children’s Home \([http://www.harvesting.org/](http://www.harvesting.org/)\) is one of the ministries that is dear to our hearts located in El Salvador. During the 12 year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children werecame on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
 
