@@ -3,7 +3,7 @@
 The source code for this book is hosted in GitHub: [https://github.com/ortus-docs/cachebox-docs](https://github.com/ortus-docs/cachebox-docs). You can freely contribute to it and submit pull requests. The contents of this book is copyright by [Ortus Solutions, Corp](http://www.ortussolutions.com) and cannot be altered or reproduced without author's consent. All content is provided _"As-Is"_ and can be freely distributed.
 
 * The majority of code examples in this book are done in `cfscript`.
-* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion \(CFML\) CLI, Package Manager, REPL - [http://www.ortussolutions.com/products/commandbox](http://www.ortussolutions.com/products/commandbox)
+* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion \(CFML\) CLI, Package Manager, REPL - [https://www.ortussolutions.com/products/commandbox](https://www.ortussolutions.com/products/commandbox)
 * All ColdFusion examples designed to run on the open soure Railo Platform or Adobe ColdFusion 9.0.2+
 
 ## External Trademarks & Copyrights
@@ -24,7 +24,7 @@ We highly encourage contribution to this book and our open source software. The 
 
 ### Shalom Children's Home
 
-![Shalom Children&apos;s Home](https://github.com/ortus-docs/cachebox-docs/tree/ab018778c240f4fc205da6f06b6f97a9cbe029e9/images/shalom.jpg)
+![Shalom Children&apos;s Home](https://raw.githubusercontent.com/ortus-docs/logbox-docs/master/images/shalom.jpg)
 
 Shalom Children’s Home \([http://www.harvesting.org/](http://www.harvesting.org/)\) is one of the ministries that is dear to our hearts located in El Salvador. During the 12 year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children werecame on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
 
