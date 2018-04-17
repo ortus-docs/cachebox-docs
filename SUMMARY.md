@@ -1,7 +1,5 @@
-# Table of contents
+# Summary
 
-* [Introduction](README.md)
-* [What's New With 2.1.0](whats-new-with-2.1.0.md)
 * [What's New With 2.0.0](whats-new-with-2.0.0.md)
 * [About This Book](about-this-book.md)
 * [Author](author.md)
@@ -69,4 +67,9 @@
     * [Skin Templates](cache-reporting/creating-your-own-skins/skin-templates.md)
     * [ReportHandler](cache-reporting/creating-your-own-skins/reporthandler/README.md)
       * [Action Commands](cache-reporting/creating-your-own-skins/reporthandler/action-commands.md)
+
+## Intro
+
+* [Introduction](README.md)
+  * [What's New With 2.1.0](whats-new-with-2.1.0.md)
 
