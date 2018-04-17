@@ -11,8 +11,6 @@ The following are the shipped providers:
 | --- | --- | --- | --- |
 | CacheBoxProvider | false | true | Our very own CacheBox caching engine |
 | CacheBoxColdBoxProvider | true | true | Our CacheBox caching engine prepared for ColdBox application usage |
-| CouchbaseProvider | false | true | An awesome provider for Couchbase NoSQL server, see [CacheBox-Couchbase](http://wiki.coldbox.org/wiki/CacheBox-Couchbase.cfm) |
-| CouchbaseColdboxProvider | true | true | An awesome provider with ColdBox application support for Couchbase NoSQL server, see [CacheBox-Couchbase](http://wiki.coldbox.org/wiki/CacheBox-Couchbase.cfm) |
 | CFProvider | false | true | A ColdFusion 9.0.1 and above implementation |
 | CFColdBoxProvider | true | true | A ColdBox enhanced version of our ColdFusion 9.0.1 cache provider |
 | LuceeProvider | false | true | A ColdBox enhanced version of our Lucee cache provider |
