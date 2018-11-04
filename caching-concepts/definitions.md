@@ -1,7 +1,7 @@
 # Definitions
 
 * **Cache Hit** : An event that occurs when an element requested from cache is found in the cache.
-* **Cache Miss** : An event that occurs when an element requested form cache is NOT found in the cache.
+* **Cache Miss** : An event that occurs when an element requested from cache is NOT found in the cache.
 * **Eviction** : The act of removing an element from the cache due to certain criteria algorithm that directly is connected to the state of the element.
 * **Eviction Policy** : The algorithm that decides what element\(s\) will be evicted from a cache when full or a certain criteria has been met in the cache. \(Cache Algorithms\)
 * **LRU** : An eviction policy that discards the least recently used items first.
