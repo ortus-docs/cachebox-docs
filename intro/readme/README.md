@@ -11,7 +11,7 @@
 
 ## CacheBox Manual - Version 5.0.0
 
-![CacheBox](.gitbook/assets/cacheboxlogo.png)
+![CacheBox](../../.gitbook/assets/cacheboxlogo.png)
 
 CacheBox is an enterprise caching engine, aggregator and API for ColdFusion \(CFML\) applications.
 
@@ -51,7 +51,7 @@ We all make mistakes from time to time :\) So why not let us know about it and h
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](.gitbook/assets/ortussolutions_button.png)
+![Ortus Solutions, Corp](../../.gitbook/assets/ortussolutions_button.png)
 
 ColdBox is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 
