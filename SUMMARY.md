@@ -66,6 +66,7 @@
   * [Lucee Providers](usage/cache-providers/lucee-providers.md)
   * [Mock Provider](usage/cache-providers/mock-provider.md)
   * [CacheBox Provider](usage/cache-providers/cachebox-provider.md)
+  * [Couchbase Providers](usage/cache-providers/couchbase-providers.md)
 * [CacheBox Object Stores](usage/cachebox-object-stores/README.md)
   * [ConcurrentStore](usage/cachebox-object-stores/concurrentstore.md)
   * [ConcurrentSoftReferenceStore](usage/cachebox-object-stores/concurrentsoftreferencestore.md)
