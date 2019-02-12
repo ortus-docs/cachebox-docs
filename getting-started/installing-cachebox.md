@@ -2,7 +2,7 @@
 
 CacheBox has been designed to work either as a standalone framework or within the ColdBox Platform. So if you are building ColdBox applications, you do not have to do anything; CacheBox is already part of the platform. The main difference between both versions is the instantiation and usage namespace, the rest is the same.
 
-The best way to install LogBox is using **CommandBox CLI and package manager**.
+The best way to install CacheBox is using **CommandBox CLI and package manager**.
 
 * [Download CacheBox Standalone](https://www.coldbox.org/download)
 * [Download API Docs](https://github.com/ortus-docs/cachebox-docs/tree/5c707884cd19f89c758daea8aca24b5e4e40fd38/installing-cachebox/apidocs.ortussolutions.com/cachebox/5.0.0/index.html)
