@@ -6,5 +6,5 @@ Our `LuceeProvider` is an implementation specifically written for Lucee
 
 | Property | Type | Required | Default | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| cacheName | string | false | _object_ | The named cache to talk to via Lucee cache operations. By default we talk to the default Lucee object cache. |
+| **cacheName** | string | false | _object_ | The named cache to talk to via Lucee cache operations. By default we talk to the default Lucee object cache. |
 

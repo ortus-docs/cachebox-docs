@@ -9,7 +9,7 @@
   \_____\__,_|\___|_| |_|\___|____/ \___/_/\_\
 ```
 
-## CacheBox Manual - Version 5.0.0
+## CacheBox Manual - Version 5.x
 
 ![CacheBox](.gitbook/assets/cacheboxlogo.png)
 

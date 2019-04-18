@@ -6,9 +6,9 @@ The `JDBCStore` is a nice object storage that leverages a single database table 
 
 | Key | Type | Required | Default | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| dsn | string | true | --- | The datasource to connect to |
-| table | string | true | --- | The table we will be caching to |
-| dsnUsername | string | false |  | The DSN username if used |
-| dsnPassword | string | false |  | The DSN password if used |
-| tableAutoCreate | Boolean | false | true | The object store can create the repository table for you if need be and if it does not exist. |
+| **dsn** | string | true | --- | The datasource to connect to |
+| **table** | string | true | --- | The table we will be caching to |
+| **dsnUsername** | string | false |  | The DSN username if used |
+| **dsnPassword** | string | false |  | The DSN password if used |
+| **tableAutoCreate** | Boolean | false | true | The object store can create the repository table for you if need be and if it does not exist. |
 
