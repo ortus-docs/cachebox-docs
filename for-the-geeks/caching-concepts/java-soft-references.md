@@ -10,6 +10,6 @@ In summary, soft references are what determine if an object is still available o
 
 ## Useful Resources
 
-* [http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ref/SoftReference.html](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ref/SoftReference.html)
-* [https://www.rallydev.com/community/engineering/java-references-strong-soft-weak-phantom](https://www.rallydev.com/community/engineering/java-references-strong-soft-weak-phantom)
+* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ref/SoftReference.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ref/SoftReference.html)
+* [https://www.baeldung.com/java-soft-references](https://www.baeldung.com/java-soft-references)
 
