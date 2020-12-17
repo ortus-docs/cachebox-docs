@@ -1,3 +1,9 @@
+---
+description: >-
+  CacheBox is an enterprise caching engine, aggregator and API for ColdFusion
+  (CFML) applications.
+---
+
 # Introduction
 
 ```text
@@ -9,11 +15,11 @@
   \_____\__,_|\___|_| |_|\___|____/ \___/_/\_\
 ```
 
-## CacheBox Manual - Version 5.x
+## CacheBox Manual - Version 6.x
 
 ![CacheBox](.gitbook/assets/cacheboxlogo.png)
 
-CacheBox is an enterprise caching engine, aggregator and API for ColdFusion \(CFML\) applications.
+CacheBox is an enterprise caching engine, aggregator and API for ColdFusion \(CFML\) applications.  It is a standalone framework for ColdFusion \(CFML\) applications and it is also bundled with the ColdBox Platform.
 
 ## Versioning
 
@@ -34,9 +40,7 @@ And constructed with the following guidelines:
 The ColdBox Platform, CacheBox is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.
 
 * Copyright by Ortus Solutions, Corp
-* ColdBox is a registered trademark by Ortus Solutions, Corp
-
-> **Info**: The ColdBox Websites, Documentation, logo and content have a separate license and they are a separate entity.
+* ColdBox, CacheBox, Wirebox, LogBox are registered trademarks by Ortus Solutions, Corp
 
 ## Discussion & Help
 
@@ -46,8 +50,12 @@ The CacheBox help and discussion group can be found here: [https://groups.google
 
 We all make mistakes from time to time :\) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/coldbox/coldbox-platform](https://github.com/coldbox/coldbox-platform)
 
-* By Email: [bugs@coldbox.org](mailto:bugs@coldbox.org)
-* By Jira: [https://ortussolutions.atlassian.net/browse/CACHEBOX](https://ortussolutions.atlassian.net/browse/CACHEBOX)
+### Jira Issue Tracking
+
+* [https://ortussolutions.atlassian.net/browse/COLDBOX](https://ortussolutions.atlassian.net/browse/COLDBOX)
+* [https://ortussolutions.atlassian.net/browse/WIREBOX](https://ortussolutions.atlassian.net/browse/WIREBOX)
+* [https://ortussolutions.atlassian.net/browse/LOGBOX](https://ortussolutions.atlassian.net/browse/LOGBOX)
+* [https://ortussolutions.atlassian.net/browse/CACHEBOX](https://ortussolutions.atlassian.net/browse/CACHEBOX)
 
 ## Professional Open Source
 
@@ -66,11 +74,11 @@ ColdBox is a professional open source software backed by [Ortus Solutions, Corp]
 ## Resources
 
 * Official Site: [http://www.coldbox.org](https://www.coldbox.org)
+* CFCasts Video Training: [http://ww.cfcasts.com](http://ww.cfcasts.com)
 * Source Code: [https://github.com/coldbox/coldbox-platform](https://github.com/coldbox/coldbox-platform)
 * Bug Tracker: [https://ortussolutions.atlassian.net/browse/CACHEBOX](https://ortussolutions.atlassian.net/browse/CACHEBOX)
 * Twitter: [@coldbox](http://www.twitter.com/coldbox)
 * Facebook: [https://www.facebook.com/coldboxplatform](https://www.facebook.com/coldboxplatform)
-* Google+: [https://www.google.com/+ColdboxOrg](https://www.google.com/+ColdboxOrg)
 * Vimeo Channel: [http://vimeo.com/channels/coldbox](http://vimeo.com/channels/coldbox)
 
 ### HONOR GOES TO GOD ABOVE ALL
