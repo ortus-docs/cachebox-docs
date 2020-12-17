@@ -5,7 +5,7 @@ CacheBox has a nifty little feature that enables itself to leech onto a specific
 ## Customizable Keys:
 
 | Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | enabled | boolean | false | _true_ | Enable scope registration |
 | scope | string | false | _application_ | The ColdFusion scope to persist on |
 | key | string | false | _cachebox_ | The name of the key in the ColdFusion scope to persist on |

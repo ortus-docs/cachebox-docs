@@ -3,7 +3,7 @@
 CacheBox's aggregation functionality offers a wide gamut of life cycle events that are announced at certain points in execution time. Below are the current events announced by the CacheBox `CacheFactory`. Remember, this is the `CacheFactory` and not a **CacheBox Cache Provider**.
 
 | Event | Data | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | afterCacheRegistration | **cache**: the registered reference |  |
 | beforeCacheRemoval | **cache**: the cahce reference to remove | Called before a `removeCache()` operation is called on CacheBox |
 | afterCacheRemoval | **cache**: the cache name | Called after the cache has been removed from CacheBox. You receive only the name of the cache removed. |

@@ -8,7 +8,7 @@ We have shipped CacheBox with several CacheBox providers that you can use in you
 The following are the shipped providers:
 
 | Provider | ColdBox Enabled | Reporting Enabled | Description |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | CacheBoxProvider | false | true | Our very own CacheBox caching engine |
 | CacheBoxColdBoxProvider | true | true | Our CacheBox caching engine prepared for ColdBox application usage |
 | CouchbaseProvider | false | true | An awesome provider for Couchbase NoSQL server, see [CacheBox-Couchbase](http://wiki.coldbox.org/wiki/CacheBox-Couchbase.cfm) |

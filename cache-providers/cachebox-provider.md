@@ -8,7 +8,7 @@ The CacheBox provider is our very own enterprise cache implementation that has b
 ## Properties
 
 | Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | ObjectDefaultTimeout | numeric | false | 60 | The default lifespan of an object in minutes |
 | ObjectDefaultLastAccessTimeout | numeric | false | 30 | The default last access or idle timeout in minutes |
 | UseLastAccessTimeouts | Boolean | false | true | Use or not idle timeouts |

@@ -15,10 +15,10 @@ Our `CFColdboxProvider` is an implementation specifically written for Adobe Cold
 Each CacheBox provider can have its own set of configuration properties it needs for operation. Our CF providers also have some. Please note, all properties other than "cacheName" are passed through to the underlying EHCache implementation in ColdFusion. The default values may differ if you have edited the `ehcache.xml` file on your server.
 
 | Property | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | cacheName | string | false | _object_ | The named cache to talk to via ColdFusion cache operations. By default we talk to the default ColdFusion object cache. |
 | clearOnFlush | boolean | false | _true_ | Sets whether the MemoryStore should be cleared when flush\(\) is called on the cache |
-| diskExpiryThreadIntervalSeconds | integer | false | _120 \(2 minutes\) _ | The interval in seconds between runs of the disk expiry thread. |
+| diskExpiryThreadIntervalSeconds | integer | false | _120 \(2 minutes\)_  | The interval in seconds between runs of the disk expiry thread. |
 | diskPersistent | boolean | false | _false_ | Specifies whether to persist caches stored on disk through JVM restarts. |
 | diskSpoolBufferSizeMB | integer | false | _30_ | The size of the disk spool used to buffer writes |
 | external | boolean | false | _false_ | Specifies whether no timeout or idletime applies. A true value indicates that the object or page is cached without any timespan being specified. |

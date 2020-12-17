@@ -7,7 +7,7 @@ However, if you are using CacheBox within a ColdBox application, the provider wi
 ## Default Cache Properties:
 
 | Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | ObjectDefaultTimeout | numeric | false | 60 | The default lifespan of an object in minutes |
 | ObjectDefaultLastAccessTimeout | numeric | false | 30 | The default last access or idle timeout in minutes |
 | UseLastAccessTimeouts | Boolean | false | true | Use or not idle timeouts |

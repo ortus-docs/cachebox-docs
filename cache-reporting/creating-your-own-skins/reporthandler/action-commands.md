@@ -5,7 +5,7 @@ Each skin template can execute action commands. We have several already construc
 The following are the commands built in to the reporting tag and the incoming URL variables it expects. Please note that the command is taken from the `URL.cbox_command` variable:
 
 | Command | URL Variables | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | expireCache | `url.cbox_cacheName` | Executes a `expireAll()` in the cache provider specified by the incoming cache name. |
 | reapCache | `url.cbox_cacheName` | Executes a `reap()` in the cache provider specified in the incoming cache name |
 | delCacheEntry | `url.cbox_cacheName` `url.cbox_cacheEntry` | Deletes the passed in cache entry from the named provider |

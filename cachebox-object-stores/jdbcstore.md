@@ -5,7 +5,7 @@ The `JDBCStore` is a nice object storage that leverages a single database table 
 ## Properties
 
 | Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | dsn | string | true | --- | The datasource to connect to |
 | table | string | true | --- | The table we will be caching to |
 | dsnUsername | string | false |  | The DSN username if used |

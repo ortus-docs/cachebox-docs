@@ -42,7 +42,7 @@ That's it! You basically import the tag library from _/cachebox/system/cache/rep
 Let's check out the attributes for this custom tag:
 
 | Attribute | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | cacheFactory | `cachebox.system.cache.CacheFactory` | true | --- | The reference to the CacheBox factory to report on. |
 | baseURL | string | false | `cgi.script_name` | The location of the script so the tag can create links for Ajax calls and rendering calls. |
 | skin | string | false | `default` | The name of the skin to use for rendering the report. The skins are found at `/cachebox/system/cache/report/skins` |

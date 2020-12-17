@@ -3,7 +3,7 @@
 This object is in charge of rendering skin templates and also executing processing commands. The custom tag creates this object and prepares it for usage, so do not worry about it, just know how to use it. The following are the variable compositions this object has and therefore you can use them in your skin templates:
 
 | Variable | Type | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | cacheBox | `cachebox.system.cache.CacheFactory` | A reference to the running CacheBox cache factory |
 | baseURL | string | The baseURL attribute passed via the tag configuration |
 | sking | string | The skin attribute passed via the tag configuration |
@@ -14,7 +14,7 @@ This object is in charge of rendering skin templates and also executing processi
 This tag also has the following methods that you might be interested in:
 
 | Return Type | Method |
-| --- | --- |
+| :--- | :--- |
 | void | `processCommands(*[command=],[cacheName=default],[cacheEntry=])`   Execute and process a cacheBox command |
 | any | `renderCachePanel()`   Render the `CachePanel.cfm` template |
 | any | `renderCacheReport(cacheName)`  Render the `CacheReport.cfm` template which renders typically the report information about a specific cache provider |
