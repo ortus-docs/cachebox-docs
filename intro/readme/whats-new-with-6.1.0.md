@@ -2,7 +2,15 @@
 
 CacheBox 6.1.0 is a minor release with only resolved tickets for the underlying LogBox library.
 
-{% embed url="https://logbox.ortusbooks.com/intro/release-history/whats-new-with-6.1.0" caption="What\'s new With LogBox 6.1.0" %}
+## Release Notes
+
+{% tabs %}
+{% tab title="LogBox" %}
+### Bugs
+
+* \[[LOGBOX-53](https://ortussolutions.atlassian.net/browse/LOGBOX-53)\] - Direct console debugging is left in the `AbstractAppender` and `FileAppender`
+{% endtab %}
+{% endtabs %}
 
 
 
