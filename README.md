@@ -21,7 +21,7 @@ description: >-
 
 CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging \(via [LogBox](http://logbox.ortusbooks.com)\), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API.
 
-CacheBox is a standalone framework for ColdFusion \(CFML\) applications and it is also bundled with the ColdBox Platform.
+**CacheBox is a standalone framework for ColdFusion \(CFML\) applications and it is also bundled with the ColdBox Platform.**
 
 ## Versioning
 
