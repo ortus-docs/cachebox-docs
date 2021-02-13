@@ -46,7 +46,7 @@ The ColdBox Platform, CacheBox is open source and licensed under the [Apache 2](
 
 ## Discussion & Help
 
-The CacheBox help and discussion group can be found here: [https://community.ortussolutions.com/](https://community.ortussolutions.com/)
+The Box products help and discussion groups can be found here: [https://community.ortussolutions.com/](https://community.ortussolutions.com/)
 
 ## Reporting a Bug
 

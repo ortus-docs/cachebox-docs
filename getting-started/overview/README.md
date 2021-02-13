@@ -26,7 +26,7 @@ We also make use of object stores \(inspired by [EHCache](http://ehcache.org)\) 
 
 ### Cache Debugger & Reporter
 
-![](../../.gitbook/assets/intro_cachemonitor.jpg)
+![](../../.gitbook/assets/cachemonitor%20%281%29.jpg)
 
 We have a great cache debugger where you can visualize all your configured caches right from within your application. You can see the performance of the cache, the contents and even issue commands to the targeted cache provider.
 
