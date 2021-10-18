@@ -16,7 +16,7 @@ Clears all the elements in all the registered caches without de-registrations
 
 * `configure(CacheBoxConfig config)`
 
-Configure the cache factory for operation, called by the init\(\)
+Configure the cache factory for operation, called by the init()
 
 * `expireAll()`
 
@@ -77,4 +77,3 @@ cachebox.shutdown();
 ```
 
 > **Info** Remember that some of the CacheBox methods announce events. So please see our event model section to see what kind of events you can listen to when working with CacheBox.
-

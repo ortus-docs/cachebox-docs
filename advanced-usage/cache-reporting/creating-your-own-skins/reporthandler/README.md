@@ -2,24 +2,24 @@
 
 This object is in charge of rendering skin templates and also executing processing commands. The custom tag creates this object and prepares it for usage, so do not worry about it, just know how to use it. The following are the variable compositions this object has and therefore you can use them in your skin templates:
 
-| Variable | Type | Description |
-| :--- | :--- | :--- |
-| cacheBox | `cachebox.system.cache.CacheFactory` | A reference to the running CacheBox cache factory |
-| baseURL | string | The baseURL attribute passed via the tag configuration |
-| sking | string | The skin attribute passed via the tag configuration |
-| skinPath | string | The non-expanded path to the skin in use. e.g. `/cachebox/system/cache/report/skin/MyCoolSkin` |
-| attributes | struct | A reference to the attributes structure passed via the tag |
-| caller | template | A reference to the caller page of the custom tag. |
+| Variable   | Type                                 | Description                                                                                    |
+| ---------- | ------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| cacheBox   | `cachebox.system.cache.CacheFactory` | A reference to the running CacheBox cache factory                                              |
+| baseURL    | string                               | The baseURL attribute passed via the tag configuration                                         |
+| sking      | string                               | The skin attribute passed via the tag configuration                                            |
+| skinPath   | string                               | The non-expanded path to the skin in use. e.g. `/cachebox/system/cache/report/skin/MyCoolSkin` |
+| attributes | struct                               | A reference to the attributes structure passed via the tag                                     |
+| caller     | template                             | A reference to the caller page of the custom tag.                                              |
 
 This tag also has the following methods that you might be interested in:
 
-| Return Type | Method |
-| :--- | :--- |
-| void | `processCommands(*[command=],[cacheName=default],[cacheEntry=])`   Execute and process a cacheBox command |
-| any | `renderCachePanel()`   Render the `CachePanel.cfm` template |
-| any | `renderCacheReport(cacheName)`  Render the `CacheReport.cfm` template which renders typically the report information about a specific cache provider |
-| any | `renderCacheContentReport(cacheName)`   Render the `CacheContentReport.cfm` template which typically renders the report of the content of the cache provider |
-| any | `renderCacheDumper(cacheName,cacheEntry)`    Tries to retrieve the `cacheEntry` from the cacheName provider and dumps it |
+| Return Type | Method                                                                                                                                                                                       |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| void        | <p><code>processCommands(*[command=],[cacheName=default],[cacheEntry=])</code> <br> Execute and process a cacheBox command</p>                                                               |
+| any         | <p><code>renderCachePanel()</code> <br> Render the <code>CachePanel.cfm</code> template</p>                                                                                                  |
+| any         | <p><code>renderCacheReport(cacheName)</code> <br>Render the <code>CacheReport.cfm</code> template which renders typically the report information about a specific cache provider</p>         |
+| any         | <p><code>renderCacheContentReport(cacheName)</code> <br> Render the <code>CacheContentReport.cfm</code> template which typically renders the report of the content of the cache provider</p> |
+| any         | <p><code>renderCacheDumper(cacheName,cacheEntry)</code>  <br> Tries to retrieve the <code>cacheEntry</code> from the cacheName provider and dumps it</p>                                     |
 
 For example, here is a snippet of the CachePanel.cfm template to designate where the cache report for a specific cache provider will be rendered by default:
 
@@ -73,4 +73,3 @@ Since no _cacheName_ argument is provided, it will use the default value of _def
     </div>
 </cfif>
 ```
-

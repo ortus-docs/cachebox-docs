@@ -9,4 +9,3 @@ This is the aggregator or cache overseer that you will interact with to get cach
 ```javascript
 cachebox = new cachebox.system.cache.CacheFactory();
 ```
-

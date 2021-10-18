@@ -51,4 +51,3 @@ config.cache( "ehCache", "caches.ehCacheProvider", {configFile="ehCache.xml"} ).
 // Listeners
 config.listener( "myapp.model.MyListener", "FunkyListener", {} );
 ```
-

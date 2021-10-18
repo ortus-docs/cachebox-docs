@@ -3,7 +3,7 @@
 CacheBox is incredibly flexible and if you would like to create your own eviction policy, you can! Below are a set of easy steps on how to do this:
 
 1. Create a simple CFC that implements the following class `cachebox.system.cache.policies.IEvictionPolicy` or use our convenience abstract class and inherit from `cachebox.system.cache.policies.AbstractEvictionPolicy`
-2. Create your own `execute()` method that will evict items \(We recommend looking at existing policies to get an insight on how to do this\) 
+2. Create your own `execute()` method that will evict items (We recommend looking at existing policies to get an insight on how to do this)&#x20;
 3. Use the policy instantiation path in your `cachebox` provider `properties`
 
 ## Sample Policy
@@ -113,5 +113,4 @@ defaultCache = {
 }
 ```
 
-That's it folks! Very easily you can create your own eviction policies and use our built in indexers to just sort the elements in whatever way you like. If not, you can always do it yourself :\)
-
+That's it folks! Very easily you can create your own eviction policies and use our built in indexers to just sort the elements in whatever way you like. If not, you can always do it yourself :)

@@ -33,7 +33,7 @@ CacheBox comes with great reporting tools whether you are using it within a Cold
 </cfoutput>
 ```
 
-![](../../.gitbook/assets/cachemonitor.jpg)
+![](<../../.gitbook/assets/cachemonitor (1).jpg>)
 
 That's it! You basically import the tag library from _/cachebox/system/cache/report_ and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information.
 
@@ -41,11 +41,11 @@ That's it! You basically import the tag library from _/cachebox/system/cache/rep
 
 Let's check out the attributes for this custom tag:
 
-| Attribute | Type | Required | Default | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| cacheFactory | `cachebox.system.cache.CacheFactory` | true | --- | The reference to the CacheBox factory to report on. |
-| baseURL | string | false | `cgi.script_name` | The location of the script so the tag can create links for Ajax calls and rendering calls. |
-| skin | string | false | `default` | The name of the skin to use for rendering the report. The skins are found at `/cachebox/system/cache/report/skins` |
+| Attribute    | Type                                 | Required | Default           | Description                                                                                                        |
+| ------------ | ------------------------------------ | -------- | ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| cacheFactory | `cachebox.system.cache.CacheFactory` | true     | ---               | The reference to the CacheBox factory to report on.                                                                |
+| baseURL      | string                               | false    | `cgi.script_name` | The location of the script so the tag can create links for Ajax calls and rendering calls.                         |
+| skin         | string                               | false    | `default`         | The name of the skin to use for rendering the report. The skins are found at `/cachebox/system/cache/report/skins` |
 
 > **Info** Each skin can implement its own attributes, so always check the skins documentation to see what extra attributes it implements.
 
@@ -62,4 +62,3 @@ Here are some examples of the tag usage:
 <cachebox:monitor cacheFactory="#controller.getCacheBox()#"
           baseURL="#event.buildLink(event.getCurrentEvent())#" />
 ```
-

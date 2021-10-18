@@ -50,7 +50,7 @@ function configure(){
 }
 ```
 
-If you are using CacheBox within a ColdBox application you do not need to worry about creating or even configuring the framework, as ColdBox ships already with a default configuration for ColdBox applications. However, you also have full control of configuring CacheBox at your application level \(Please see the [ColdBox application configuration section](https://github.com/ortus/cachebox-documentation/tree/ab018778c240f4fc205da6f06b6f97a9cbe029e9/coldbox_application_enhancements/README.md)\). The default configuration for a ColdBox application can be found in the following location:
+If you are using CacheBox within a ColdBox application you do not need to worry about creating or even configuring the framework, as ColdBox ships already with a default configuration for ColdBox applications. However, you also have full control of configuring CacheBox at your application level (Please see the [ColdBox application configuration section](https://github.com/ortus/cachebox-documentation/tree/ab018778c240f4fc205da6f06b6f97a9cbe029e9/coldbox\_application\_enhancements/README.md)). The default configuration for a ColdBox application can be found in the following location:
 
 ```javascript
 /coldbox/system/web/config/CacheBox.cfc
@@ -63,7 +63,7 @@ In summary, CacheBox has two modes of operation:
 * Standalone Framework
 * ColdBox Application
 
-If you have downloaded CacheBox as a standalone framework, then please make sure you use the correct namespace path \(`cachebox.system`\). Also, once you create CacheBox make sure that you persist it somewhere, either in Application scope or any other scope or a dependency injection context \(WireBox\). ColdBox application users already have an instance of CacheBox created for you in every application and it is stored in the main application controller and can be retrieved via the following function:
+If you have downloaded CacheBox as a standalone framework, then please make sure you use the correct namespace path (`cachebox.system`). Also, once you create CacheBox make sure that you persist it somewhere, either in Application scope or any other scope or a dependency injection context (WireBox). ColdBox application users already have an instance of CacheBox created for you in every application and it is stored in the main application controller and can be retrieved via the following function:
 
 ```javascript
 // Get a reference to CacheBox
@@ -123,4 +123,3 @@ config.scopeRegistration( true, "application" )
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );
 ```
-

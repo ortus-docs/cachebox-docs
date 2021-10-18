@@ -5,4 +5,3 @@ This provider can be used for mocking capabilities in your unit tests or any kin
 ## Properties
 
 * _None_
-

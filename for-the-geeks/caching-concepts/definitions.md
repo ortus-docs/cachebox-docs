@@ -3,7 +3,7 @@
 * **Cache Hit** : An event that occurs when an element requested from cache is found in the cache.
 * **Cache Miss** : An event that occurs when an element requested from cache is NOT found in the cache.
 * **Eviction** : The act of removing an element from the cache due to certain criteria algorithm that directly is connected to the state of the element.
-* **Eviction Policy** : The algorithm that decides what element\(s\) will be evicted from a cache when full or a certain criteria has been met in the cache. \(Cache Algorithms\)
+* **Eviction Policy** : The algorithm that decides what element(s) will be evicted from a cache when full or a certain criteria has been met in the cache. (Cache Algorithms)
 * **LRU** : An eviction policy that discards the least recently used items first.
 * **LFU** : An eviction policy that counts how often an item has been accessed and it will discard the items that have been used the least.
 * **FIFO** : An eviction policy that works as a queue, first object in will be the first object out of the cache. So older staler objects are purged.
@@ -18,4 +18,3 @@
 * **Out of Process Cache** : A cache that lives as its own process and heap in the most likely the same server as the application using it.
 * **Eternal Objects** : Eternal objects are objects that will never be purged or evicted by the caching engine automatically. The only way to remove them is to recreate the cache or clear them manually.
 * **Cache Topology** : A concept that refers to where data physically resides and how it is accessed in a distributed environment
-

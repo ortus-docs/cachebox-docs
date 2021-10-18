@@ -13,7 +13,7 @@
 * Solid Core
   * Multi-Threaded
   * Based on [Java Concurrency Classes](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
-  * Multiple [Eviction Policies](http://en.wikipedia.org/wiki/Cache_algorithms): LRU,LFU and FIFO
+  * Multiple [Eviction Policies](http://en.wikipedia.org/wiki/Cache\_algorithms): LRU,LFU and FIFO
   * Memory Management & Memory Sensitive caching based on [Java Soft References](http://docs.oracle.com/javase/7/docs/api/java/lang/ref/SoftReference.html)
   * High Load Tested
   * Fully Documented
@@ -22,15 +22,14 @@
   * Create your own custom eviction policies
   * Create your own cache providers
   * Create your own CacheBox object storages
-  * Extensive and granular purging mechanisms \(regular expressions and key snippets\)
+  * Extensive and granular purging mechanisms (regular expressions and key snippets)
 * Highly Configurable
   * JVM Threshold Checks
   * Object Limits
   * Ability to time expire objects
-  * Eternal \(singletons\) and time-lived objects
-  * Object purging based on object usage \(Access Timeouts\)
+  * Eternal (singletons) and time-lived objects
+  * Object purging based on object usage (Access Timeouts)
   * Fully configurable at runtime via dynamic configurations and hot-updates
 * Visually Appealing and Useful
   * Fully featured caching monitor and commands panel
   * Complete cache performance reports
-

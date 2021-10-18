@@ -7,4 +7,3 @@ This is the main interface that each caching engine implementation must implemen
 ```javascript
 /cachebox/system/cache/providers
 ```
-

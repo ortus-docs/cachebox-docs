@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-```text
+```
    _____           _          ____            
   / ____|         | |        |  _ \           
  | |     __ _  ___| |__   ___| |_) | _____  __
@@ -19,22 +19,22 @@ description: >-
 
 ![CacheBox](.gitbook/assets/cacheboxlogo.png)
 
-CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging \(via [LogBox](http://logbox.ortusbooks.com)\), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API.
+CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging (via [LogBox](http://logbox.ortusbooks.com)), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API.
 
-**CacheBox is a standalone framework for ColdFusion \(CFML\) applications and it is also bundled with the ColdBox Platform.**
+**CacheBox is a standalone framework for ColdFusion (CFML) applications and it is also bundled with the ColdBox Platform.**
 
 ## Versioning
 
 CacheBox is maintained under the [Semantic Versioning](https://semver.org) guidelines as much as possible. Releases will be numbered with the following format:
 
-```text
+```
 <major>.<minor>.<patch>
 ```
 
 And constructed with the following guidelines:
 
-* Breaking backward compatibility bumps the major \(and resets the minor and patch\)
-* New additions without breaking backward compatibility bumps the minor \(and resets the patch\)
+* Breaking backward compatibility bumps the major (and resets the minor and patch)
+* New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
 ## License
@@ -46,11 +46,11 @@ The ColdBox Platform, CacheBox is open source and licensed under the [Apache 2](
 
 ## Discussion & Help
 
-The Box products help and discussion groups can be found here: [https://community.ortussolutions.com/](https://community.ortussolutions.com/)
+The Box products help and discussion groups can be found here: [https://community.ortussolutions.com/](https://community.ortussolutions.com)
 
 ## Reporting a Bug
 
-We all make mistakes from time to time :\) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/coldbox/coldbox-platform](https://github.com/coldbox/coldbox-platform)
+We all make mistakes from time to time :) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/coldbox/coldbox-platform](https://github.com/coldbox/coldbox-platform)
 
 ### Jira Issue Tracking
 
@@ -61,7 +61,7 @@ We all make mistakes from time to time :\) So why not let us know about it and h
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](.gitbook/assets/ortussolutions_button.png)
+![Ortus Solutions, Corp](<.gitbook/assets/ortussolutions\_button (1).png>)
 
 ColdBox is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 
@@ -88,4 +88,3 @@ ColdBox is a professional open source software backed by [Ortus Solutions, Corp]
 Because of His grace, this project exists. If you don't like this, then don't read it, its not for you.
 
 > "Therefore being justified by \*\*faith\*\*, we have peace with God through our Lord Jesus Christ: By whom also we have access by \*\*faith\*\* into this \*\*grace\*\* wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
-

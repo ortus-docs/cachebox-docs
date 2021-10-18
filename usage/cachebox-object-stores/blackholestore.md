@@ -5,4 +5,3 @@ The `BlackholeStore` is not something you would actually deploy to a production 
 ## Properties
 
 * _None_
-

@@ -4,7 +4,7 @@ We have already seen in our previous section all the events that are announced b
 
 There are two ways to build CacheBox listeners because there are two modes of operations, but the core is the same. Listeners are simple CFCs that must create methods that match the name of the event they want to listen in. If you are running CacheBox within a ColdBox application, listeners are Interceptors and you declare them and register them exactly the same way that you do with normal interceptors.
 
-Also, these methods can take up to three parameters depending on your mode of operation \(standalone or ColdBox\). The one main difference between pure CacheBox listeners and ColdBox interceptors are that the configure method for the standalone CacheBox is different. Please see samples in this section.
+Also, these methods can take up to three parameters depending on your mode of operation (standalone or ColdBox). The one main difference between pure CacheBox listeners and ColdBox interceptors are that the configure method for the standalone CacheBox is different. Please see samples in this section.
 
 ## Examples
 
@@ -68,4 +68,3 @@ Please note the `configure()` method in the standalone listener. This is necessa
 As you can see from the examples above, each Listener component can listen to multiple events. Now you might be asking yourself, in what order are these listeners executed in? Well, they are executed in the order they are declared in either the ColdBox configuration file as interceptors or the CacheBox configuration file as listeners.
 
 > **Caution** Order is **EXTREMELY** important for interceptors/listeners. So please make sure you order them in the declaration file in the order you want them to fire.
-
