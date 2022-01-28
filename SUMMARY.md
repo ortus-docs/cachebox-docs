@@ -5,13 +5,14 @@
 ## Intro
 
 * [Release History](intro/readme/README.md)
+  * [What's New With 6.6.0](intro/readme/whats-new-with-6.6.0.md)
   * [What's New With 6.5.0](intro/readme/whats-new-with-6.5.0.md)
   * [What's New With 6.3.0](intro/readme/whats-new-with-6.3.0.md)
   * [What's New With 6.2.0](intro/readme/whats-new-with-6.2.0.md)
   * [What's New With 6.1.0](intro/readme/whats-new-with-6.1.0.md)
   * [What's New With 6.0.0](intro/readme/whats-new-with-6.0.0.md)
 
----
+***
 
 * [About This Book](about-this-book.md)
 * [Author](author.md)
@@ -92,4 +93,3 @@
     * [Skin Templates](advanced-usage/cache-reporting/creating-your-own-skins/skin-templates.md)
     * [ReportHandler](advanced-usage/cache-reporting/creating-your-own-skins/reporthandler/README.md)
       * [Action Commands](advanced-usage/cache-reporting/creating-your-own-skins/reporthandler/action-commands.md)
-
