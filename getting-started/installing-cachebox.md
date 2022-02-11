@@ -4,8 +4,7 @@ CacheBox has been designed to work either as a standalone framework or within th
 
 The best way to install CacheBox is using **CommandBox CLI and package manager**.
 
-* [Download CacheBox Standalone](https://www.coldbox.org/download)
-* [Download API Docs](https://github.com/ortus-docs/cachebox-docs/tree/5c707884cd19f89c758daea8aca24b5e4e40fd38/installing-cachebox/apidocs.ortussolutions.com/cachebox/5.0.0/index.html)
+* [Download CacheBox Standalone](https://www.forgebox.io/view/cachebox)
 
 ## System Requirements
 
