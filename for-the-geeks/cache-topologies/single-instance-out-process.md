@@ -2,7 +2,7 @@
 
 A single instance can be an out-process cache that leaves on its own JVM typically in the same machine as the application server. This approach has also its benefits and cons. A typical example of an out of process cache can be using an instance of CouchDB for storage of your cache components and your applications talk to the cache via REST.
 
-![](../../.gitbook/assets/cachebox\_topology\_outprocess.png)
+![](../../images/cachebox\_topology\_outprocess.png)
 
 ## Benefits:
 

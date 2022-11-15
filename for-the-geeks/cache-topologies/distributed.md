@@ -1,10 +1,10 @@
 # Distributed
 
-Distributed caching is the big daddy of scalability and extensibility. The crux concept is of partitioning the cache data across the members of the cache cluster and creating a grid of cached data that can scale rather easily. There are several major players out there like [EHCache](http://ehcache.org) with Terracotta, [Oracle](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html) [Coherence](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html), and our favorite: [Couchbase NoSQL](http://couchbase.com).
+Distributed caching is the big daddy of scalability and extensibility. The crux concept is of partitioning the cache data across the members of the cache cluster and creating a grid of cached data that can scale rather easily. There are several major players out there like [EHCache](http://ehcache.org/) with Terracotta, [Oracle](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html) [Coherence](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html), and our favorite: [Couchbase NoSQL](http://couchbase.com/).
 
 I suggest looking at all options to find what best suits your requirements. Please note that each vendor has their own flavor of distributed caching and might not match our diagram. Our diagram is just a visual representation for knowledge purposes.
 
-![](../../.gitbook/assets/cachebox\_topology\_distributed.png)
+![](../../images/cachebox\_topology\_distributed.png)
 
 ## Ortus Couchbase Extension
 

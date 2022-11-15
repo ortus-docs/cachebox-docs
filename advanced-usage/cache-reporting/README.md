@@ -33,7 +33,7 @@ CacheBox comes with great reporting tools whether you are using it within a Cold
 </cfoutput>
 ```
 
-![](<../../.gitbook/assets/cachemonitor (1).jpg>)
+![](../../.gitbook/assets/cachemonitor.jpg)
 
 That's it! You basically import the tag library from _/cachebox/system/cache/report_ and then use the monitor tag to render out the monitor. What's cool about the monitor is that it is completely skinnable. Please see the CacheBox Report Skins for more information.
 
