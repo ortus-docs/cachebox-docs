@@ -1,27 +1,17 @@
 # Table of contents
 
 * [Introduction](README.md)
-
-## Intro
-
-* [Release History](intro/readme/README.md)
-  * [What's New With 6.7.0](intro/readme/whats-new-with-6.7.0.md)
-  * [What's New With 6.6.1](intro/readme/whats-new-with-6.6.1.md)
-  * [What's New With 6.6.0](intro/readme/whats-new-with-6.6.0.md)
-  * [What's New With 6.5.0](intro/readme/whats-new-with-6.5.0.md)
-  * [What's New With 6.3.0](intro/readme/whats-new-with-6.3.0.md)
-  * [What's New With 6.2.0](intro/readme/whats-new-with-6.2.0.md)
-  * [What's New With 6.1.0](intro/readme/whats-new-with-6.1.0.md)
-  * [What's New With 6.0.0](intro/readme/whats-new-with-6.0.0.md)
-* [About This Book](intro/about-this-book/README.md)
-  * [Author](intro/about-this-book/author.md)
+  * [Contributing Guide](readme/contributing-guide.md)
+  * [Release History](readme/readme/README.md)
+    * [What's New With 7.1.0](readme/readme/whats-new-with-7.1.0.md)
+    * [What's New With 7.0.0](readme/readme/whats-new-with-7.0.0.md)
+  * [Upgrading to CacheBox 7](readme/upgrading-to-cachebox-7.md)
+  * [About This Book](readme/about-this-book/README.md)
+    * [Author](readme/about-this-book/author.md)
 
 ## Getting Started
 
-* [Overview](getting-started/overview/README.md)
-  * [CacheBox RefCard](getting-started/overview/cachebox-refcard.md)
-  * [Useful Resources](getting-started/overview/useful-resources.md)
-  * [Features at a Glance](getting-started/overview/features-at-a-glance.md)
+* [Overview](getting-started/overview.md)
 * [Installing CacheBox](getting-started/installing-cachebox.md)
 * [Creating CacheBox](getting-started/creating-cachebox/README.md)
   * [Common CacheFactory Methods](getting-started/creating-cachebox/common-cachefactory-methods.md)

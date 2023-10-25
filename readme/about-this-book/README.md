@@ -1,30 +1,30 @@
 # About This Book
 
-The source code for this book is hosted in GitHub: [https://github.com/ortus-docs/cachebox-docs](https://github.com/ortus-docs/cachebox-docs). You can freely contribute to it and submit pull requests. The contents of this book is copyright by [Ortus Solutions, Corp](http://www.ortussolutions.com) and cannot be altered or reproduced without author's consent. All content is provided _"As-Is"_ and can be freely distributed.
+The source code for this book is hosted in GitHub: [https://github.com/ortus-docs/wirebox-docs](https://github.com/ortus-docs/wirebox-docs). You can freely contribute to it and submit pull requests. The contents of this book is copyright by [Ortus Solutions, Corp](https://www.ortussolutions.com/) and cannot be altered or reproduced without author's consent. All content is provided _"As-Is"_ and can be freely distributed.
 
 * The majority of code examples in this book are done in `cfscript`.
-* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion (CFML) CLI, Package Manager, REPL - [http://www.ortussolutions.com/products/commandbox](http://www.ortussolutions.com/products/commandbox)
+* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion (CFML) CLI, Package Manager, REPL - [http://www.ortussolutions.com/products/commandbox](http://www.ortussolutions.com/products/commandbox)​
 * All ColdFusion examples designed to run on the open source Lucee Platform or Adobe ColdFusion 11+
 
-## External Trademarks & Copyrights
+### External Trademarks & Copyrights <a href="#external-trademarks-and-copyrights" id="external-trademarks-and-copyrights"></a>
 
 Flash, Flex, ColdFusion, and Adobe are registered trademarks and copyrights of Adobe Systems, Inc.
 
-## Notice of Liability
+### Notice of Liability <a href="#notice-of-liability" id="notice-of-liability"></a>
 
 The information in this book is distributed “as is”, without warranty. The author and Ortus Solutions, Corp shall not have any liability to any person or entity with respect to loss or damage caused or alleged to be caused directly or indirectly by the content of this training book, software and resources described in it.
 
-## Contributing
+### Contributing <a href="#contributing" id="contributing"></a>
 
-We highly encourage contribution to this book and our open source software. The source code for this book can be found in our [GitHub repository](https://github.com/ColdBox/cachebox-docs) where you can submit pull requests.
+We highly encourage contribution to this book and our open source software. The source code for this book can be found in our [GitHub repository](https://github.com/ortus-docs/wirebox-docs) where you can submit pull requests.
 
-## Charitable Proceeds
+### Charitable Proceeds <a href="#charitable-proceeds" id="charitable-proceeds"></a>
 
 10% of the proceeds of this book will go to charity to support orphaned kids in El Salvador - [https://www.harvesting.org/](https://www.harvesting.org/). So please donate and purchase the printed version of this book, every book sold can help a child for almost 2 months.
 
 ### Shalom Children's Home
 
-![Shalom Children's Home](https://raw.githubusercontent.com/ortus-docs/logbox-docs/master/images/shalom.jpg)
+![](https://3918356634-files.gitbook.io/\~/files/v0/b/gitbook-legacy-files/o/assets%2F-LA-UVvsc-e1GVkiaPQ-%2F-LA-Ud03e\_n2SeqLC9Ls%2F-LA-Urp4TYTY9ww8nyKN%2Fshalom.jpg?generation=1523648004879362\&alt=media)
 
 Shalom Children’s Home ([http://www.harvesting.org/](http://www.harvesting.org/)) is one of the ministries that is dear to our hearts located in El Salvador. During the 12 year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children came on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
 

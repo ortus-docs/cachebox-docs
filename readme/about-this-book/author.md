@@ -4,17 +4,19 @@
 
 ![](<../../.gitbook/assets/luismajano (1).jpg>)
 
-Luis Majano is a Computer Engineer with over 15 years of software development and systems architecture experience. He was born in [San Salvador, El Salvador](http://en.wikipedia.org/wiki/El\_Salvador) in the late 70’s, during a period of economical instability and civil war. He lived in El Salvador until 1995 and then moved to Miami, Florida where he completed his Bachelors of Science in Computer Engineering at [Florida International University](http://fiu.edu).   Luis resides in The Woodlands, Texas with his beautiful wife Veronica, baby girl Alexia and baby boy Lucas!
+Luis Majano is a Computer Engineer, published author, founder, and CEO of Ortus Solutions, Corp ([www.ortussolutions.com](http://www.ortussolutions.com)), a consulting firm specializing in open-sourcing tooling, web development, architecture, and professional open-source.
 
-He is the CEO of [Ortus Solutions](http://www.ortussolutions.com), a consulting firm specializing in web development, ColdFusion (CFML), Java development and all open source professional services under the ColdBox and ContentBox stack. He is the creator of ColdBox, ContentBox, WireBox, MockBox, LogBox and anything “BOX”, and contributes to many open source ColdFusion projects. He is also the Adobe ColdFusion user group manager for the [Inland Empire](http://www.iecfug.org). You can read his blog at [www.luismajano.com](http://www.luismajano.com)
+He has been designing and working with software architecture and technologies since the year 2000.  He has a passion for learning and mentoring developers so they can succeed with sustainable software practices and the usage and development of open-source software.
 
-Luis has a passion for Jesus, tennis, golf, volleyball and anything electronic. Random Author Facts:
+He is the creator of ColdBox HMVC, ContentBox Modular CMS, TestBox BDD, CommandBox CLI, and over 200 open-source projects.  He speaks regularly at several international conferences, and you can read his blog at [www.luismajano.com](https://www.luismajano.com).
+
+Luis is passionate about Jesus, tennis, golf, volleyball, and anything electronic. Random Author Facts:
 
 * He played volleyball in the Salvadorean National Team at the tender age of 17
 * The Lord of the Rings and The Hobbit is something he reads every 5 years. (Geek!)
-* His first ever computer was a Texas Instrument TI-86 that his parents gave him in 1986. After some time digesting his very first BASIC book, he had written his own tic-tac-toe game at the age of 9. (Extra geek!)
-* He has a geek love for circuits, microcontrollers and overall embedded systems.
-* He has of late (during old age) become a fan of running and bike riding with his family.
+* His first computer was a Texas Instrument TI-99/4A that his parents gave him in 1986. After some time digesting his very first BASIC book, he had written his own tic-tac-toe game at the age of 9. (Extra geek!)
+* He has a geek love for circuits, microcontrollers, and overall embedded systems.
+* He has of late become a fan of running and bike riding with his family.
 
 > Keep Jesus number one in your life and in your heart. I did and it changed my life from desolation, defeat and failure to an abundant life full of love, thankfulness, joy and overwhelming peace. As this world breathes failure and fear upon any life, Jesus brings power, love and a sound mind to everybody!
 >

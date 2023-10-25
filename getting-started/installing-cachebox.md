@@ -1,48 +1,36 @@
 # Installing CacheBox
 
-CacheBox has been designed to work either as a standalone framework or within the ColdBox Platform. So if you are building ColdBox applications, you do not have to do anything; CacheBox is already part of the platform. The main difference between both versions is the instantiation and usage namespace, the rest is the same.
-
-The best way to install CacheBox is using **CommandBox CLI and package manager**.
-
-* [Download CacheBox Standalone](https://www.forgebox.io/view/cachebox)
+**CacheBox** can be installed as a standalone framework or included with the latest ColdBox Platform release, so it is unnecessary if you are within a ColdBox application.
 
 ## System Requirements
 
-CacheBox has been designed to work under the following CFML Engines:
+* Adobe ColdFusion 2018+
+* Lucee 5+
 
-* Adobe ColdFusion 2016+
-* Lucee 4.5+
+## Standalone Installation
 
-## Manual Installation
-
-If you are using CacheBox within a ColdBox application context, then CacheBox is part of the platform. Just install ColdBox normally. If you are using CacheBox standalone, just drop CacheBox in your application root or create a mapping called `cachebox` that points to the installation folder. If you can run the following snippet, then CacheBox is installed correctly:
-
-```
-cachebox = new cachebox.system.cache.CacheFactory();
-```
-
-> **Note** Please remember that if you use the standalone version the namespace is `cachebox.system.cache` and if you use the ColdBox application version it is `coldbox.system.cache`. From this point on, we will use the standalone namespace for simplicity.
-
-## CommandBox Installation
-
-You can leverage [CommandBox](https://www.ortussolutions.com/products/commandbox) to install the standalone version of CacheBox
+You can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) to install the standalone version of CacheBox with a simple command:
 
 ```bash
-# Latest CacheBox
+# Latest Version
 box install cachebox
 
 # Bleeding Edge
 box install cachebox@be
 ```
 
-## Namespaces
+This will install CacheBox as a dependency in your application into a folder called `cachebox`. You can then leverage the standalone namespace within your application: `cachebox.system.ioc`.
 
-### Standalone
+### Mappings
 
-`cachebox.system.cache`
+You will need the following mapping that points to the folder you installed `cachebox` into:
 
-### ColdBox
+```cfscript
+this.mappings[ "/cachebox" ] = "path.to.cachebox";
+```
 
-`coldbox.system.cache`
+This will ensure that the appropriate libraries can find each other.
 
-> **Note** All examples in this book are based on the **standalone** namespace.
+{% hint style="danger" %}
+Remember that this only applies to the standalone approach.
+{% endhint %}
