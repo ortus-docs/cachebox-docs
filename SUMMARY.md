@@ -22,10 +22,7 @@
 
 * [CacheBox Configuration](configuration/cachebox-configuration/README.md)
   * [CacheBox DSL](configuration/cachebox-configuration/cachebox-dsl/README.md)
-    * [Scope Registration](configuration/cachebox-configuration/cachebox-dsl/scope-registration.md)
     * [Default Cache](configuration/cachebox-configuration/cachebox-dsl/default-cache.md)
-    * [Caches](configuration/cachebox-configuration/cachebox-dsl/caches.md)
-    * [Listeners](configuration/cachebox-configuration/cachebox-dsl/listeners.md)
   * [CacheBox Config Object](configuration/cachebox-configuration/cachebox-config-object.md)
   * [ColdBox Configuration](configuration/cachebox-configuration/coldbox-configuration.md)
 
