@@ -22,7 +22,6 @@
 
 * [CacheBox Configuration](configuration/cachebox-configuration/README.md)
   * [CacheBox DSL](configuration/cachebox-configuration/cachebox-dsl/README.md)
-    * [LogBoxConfig](configuration/cachebox-configuration/cachebox-dsl/logboxconfig.md)
     * [Scope Registration](configuration/cachebox-configuration/cachebox-dsl/scope-registration.md)
     * [Default Cache](configuration/cachebox-configuration/cachebox-dsl/default-cache.md)
     * [Caches](configuration/cachebox-configuration/cachebox-dsl/caches.md)
