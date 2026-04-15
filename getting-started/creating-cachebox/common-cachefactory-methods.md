@@ -42,6 +42,18 @@ Try to remove a named cache from this factory
 
 Replace a registered named cache with a new decorated cache of the same name
 
+* `registerListeners()`
+
+Register all configured event listeners found in the configuration file with the ColdBox Interceptor Service
+
+* `shutdownCache(string name)`
+
+Send a shutdown command to a specific named cache provider and remove it from the factory
+
+* `removeFromScope()`
+
+Remove the CacheBox factory from scope registration if scope registration is enabled
+
 * `shutdown()`
 
 Recursively sends shutdown commands to all registered caches and cleans up in preparation for shutdown

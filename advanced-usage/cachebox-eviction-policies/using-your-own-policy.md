@@ -48,51 +48,58 @@ component extends="cachebox.system.cache.policies.AbstractEvictionPolicy"{
 }
 ```
 
-## Process Evictions:
+## Process Evictions
 
-The below code is the code used to evict objects from cache
+The `processEvictions()` method is provided by the `AbstractEvictionPolicy` base class and handles the actual object expiration loop. Call it from your `execute()` method after sorting the index.
 
-```javascript
-<---  processEvictions --->
-<cffunction name="processEvictions" output="false" access="private" returntype="void" hint="Abstract processing of evictions">
-    <cfargument name="index" type="array" required="true" hint="The array of metadata keys used for processing evictions"/>
-    <cfscript>
-        var oCacheManager   = getAssociatedCache();
-        var indexer         = oCacheManager.getObjectStore().getIndexer();
-        var indexLength     = arrayLen(arguments.index);
-        var x               = 1;
-        var md              = "";
-        var evictCount      = oCacheManager.getConfiguration().evictCount;
-        var evictedCounter  = 0;
+{% tabs %}
+{% tab title="BoxLang" %}
+```bx
+private void function processEvictions( required array index ) {
+    var oCacheManager  = getAssociatedCache()
+    var indexer        = oCacheManager.getObjectStore().getIndexer()
+    var indexLength    = index.len()
+    var evictCount     = oCacheManager.getConfiguration().evictCount
+    var evictedCounter = 0
 
-        //Loop Through Metadata
-        for (x=1; x lte indexLength; x=x+1){
+    for ( var x = 1; x <= indexLength; x++ ) {
+        if ( !indexer.objectExists( index[ x ] ) ) { continue }
+        var md = indexer.getObjectMetadata( index[ x ] )
 
-            // verify object in indexer
-            if( NOT indexer.objectExists( arguments.index[x] ) ){
-                continue;
-            }
-            md = indexer.getObjectMetadata( arguments.index[x] );
-
-            // Evict if not already marked for eviction or an eternal object.
-            if( md.timeout gt 0 AND NOT md.isExpired ){
-
-                // Expire Object
-                oCacheManager.expireKey( arguments.index[x] );
-
-                // Record Eviction
-                oCacheManager.getStats().evictionHit();
-                evictedCounter++;
-
-                // Can we break or keep on evicting
-                if( evictedCounter GTE evictCount ){
-                    break;
-                }
-            }
-        }//end for loop
-    </cfscript>
-</cffunction>
+        // Evict if not eternal and not already expired
+        if ( md.timeout > 0 && !md.isExpired ) {
+            oCacheManager.expireKey( index[ x ] )
+            oCacheManager.getStats().evictionHit()
+            if ( ++evictedCounter >= evictCount ) { break }
+        }
+    }
+}
 ```
+{% endtab %}
+{% tab title="CFML" %}
+```javascript
+private void function processEvictions( required array index ) {
+    var oCacheManager  = getAssociatedCache();
+    var indexer        = oCacheManager.getObjectStore().getIndexer();
+    var indexLength    = arrayLen( arguments.index );
+    var evictCount     = oCacheManager.getConfiguration().evictCount;
+    var evictedCounter = 0;
+
+    for ( var x = 1; x <= indexLength; x++ ) {
+        if ( !indexer.objectExists( arguments.index[ x ] ) ) { continue; }
+        var md = indexer.getObjectMetadata( arguments.index[ x ] );
+
+        // Evict if not eternal and not already expired
+        if ( md.timeout > 0 && !md.isExpired ) {
+            oCacheManager.expireKey( arguments.index[ x ] );
+            oCacheManager.getStats().evictionHit();
+            if ( ++evictedCounter >= evictCount ) { break; }
+        }
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
 
 ## Configuration File
 

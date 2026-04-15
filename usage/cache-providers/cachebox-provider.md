@@ -44,3 +44,57 @@ ColdBox ships with the following object stores:
 {% hint style="warning" %}
 Please also note that each of the object stores can have extra configuration properties that you will need to set. So for that, let's delve a little deeper into object stores.
 {% endhint %}
+
+## Provider API Methods
+
+All CacheBox providers implement the `ICacheProvider` interface. The table below covers the core methods available on any provider instance.
+
+| Method | Description |
+| --- | --- |
+| `get( required objectKey )` | Get an object from cache; returns an empty value if not found or expired |
+| `getQuiet( required objectKey )` | Get an object without touching access statistics |
+| `set( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object in cache with optional timeout (minutes) |
+| `setQuiet( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object without updating statistics |
+| `clear( required objectKey )` | Remove a specific object from cache |
+| `clearQuiet( required objectKey )` | Remove a specific object silently without throwing errors |
+| `clearAll()` | Remove all objects from the cache |
+| `lookup( required objectKey )` | Returns `true` if the key exists and has not expired |
+| `lookupQuiet( required objectKey )` | Returns `true` if the key exists without touching statistics |
+| `isExpired( required objectKey )` | Returns `true` if the cached object has expired |
+| `expireAll()` | Mark all cached objects as expired |
+| `expireObject( required objectKey )` | Force-expire a specific cached object |
+| `getKeys()` | Get an array of all keys currently in the cache |
+| `getCachedObjectMetadata( required objectKey )` | Get the metadata struct for a cached object (timeout, hits, created, etc.) |
+| `getSize()` | Get the current number of objects in the cache |
+| `reap()` | Run the cache reap routine to remove expired objects |
+| `getStats()` | Get the `IStats` statistics object for this provider |
+| `clearStatistics()` | Reset all statistics counters to zero |
+
+### Usage Examples
+
+```javascript
+// Get the default cache
+cache = cachebox.getDefaultCache();
+
+// Store an object for 60 minutes
+cache.set( "myKey", myObject, 60 );
+
+// Retrieve an object
+value = cache.get( "myKey" );
+
+// Check existence without retrieval
+if ( cache.lookup( "myKey" ) ) {
+    // key exists and is not expired
+}
+
+// Get metadata for a cached object
+md = cache.getCachedObjectMetadata( "myKey" );
+writeOutput( "Hits: #md.hits#, Created: #md.created#" );
+
+// Remove a single key
+cache.clear( "myKey" );
+
+// Get current stats
+stats = cache.getStats();
+writeOutput( "Hit ratio: #stats.getCachePerformanceRatio()#" );
+```
