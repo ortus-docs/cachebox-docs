@@ -82,7 +82,7 @@ The LogBoxConfig element is used only in a standalone mode of operation and tell
 [LogBox](http://logbox.ortusbooks.com) is an enterprise ColdFusion (CFML) logging library
 {% endhint %}
 
-By default, CacheBox will instantiate LogBox with its default configuration file located at: `cachebox.system.cache.config.LogBox.cfc` which logs to the console.
+By default, CacheBox will instantiate LogBox with its default configuration file located at: `cachebox.system.cache.config.LogBox.bx` (or `.cfc` for CFML) which logs to the console.
 
 ###
 

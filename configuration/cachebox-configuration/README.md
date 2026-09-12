@@ -2,7 +2,7 @@
 
 CacheBox comes pre-configured for operation for caching using a `default` cache.  However, you can customize CacheBox using different strategies by levarging the [CacheBox Configuration DSL](cachebox-dsl/).
 
-When you are in a ColdBox application, you will have a `cachebox` structure in your `ColdBox.cfc` already that you can use, or you can create a portable class as well and place it in `config/CacheBox.cfc`
+When you are in a ColdBox application, you will have a `cachebox` structure in your `ColdBox.bx` (or `.cfc` for CFML) already that you can use, or you can create a portable class as well and place it in `config/CacheBox.bx` (or `.cfc` for CFML)
 
 {% hint style="success" %}
 The cool thing about this CacheBox DSL is that it is the same whether you are using CacheBox in ColdBox applications or any other framework or non-framework ColdFusion application.&#x20;
