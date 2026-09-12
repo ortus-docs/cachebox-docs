@@ -29,7 +29,37 @@ This is great for small content pieces and works well for applications. However,
 
 * **Proactive Loading** : This approach focuses itself on the loading of resources before the application starts up so content can be loaded. EHCache for example offers cache loaders that you can create that will populate the cache on initializations. CacheBox offers the same capabilities through its event model, so you can tap into the necessary events and then carry your population and loading procedures. For example, you might tap into the afterCacheRegistration event in CacheBox so you might listen to when a cache engine get's created and configured so you can start populating it right at application/cache startup. In this loader you will then have the opportunity to load your data either asynchronously or synchronously. If you will be loading large amounts of data or processor intensive data, we recommend you leverage cfthread and do the loading asynchronously within your event interceptor.
 
-```javascript
+{% tabs %}
+{% tab title="BoxLang" %}
+```boxlang
+/**
+* A cache listener for CacheBox
+*/
+class{
+
+    /**
+    * Listen for cache registrations and load data into the 'bigCache' cache ONLY!
+    */
+    function afterCacheRegistration(interceptData){
+        // Get the registered cache reference from the incoming interception data
+        var cache = arguments.interceptData.cache;
+
+        // Only work on the BigCache cache
+        if( cache.getName() eq "BigCache" ){
+
+            // Talk to service, get some big data items
+            dataItems = service.getBigDataItems();
+
+            //Cache them forever as eternal objects
+            cache.setMulti(mapping=dataItems,timeout=0);
+        }
+
+    }
+}
+```
+{% endtab %}
+{% tab title="CFML" %}
+```cfscript
 /**
 * A cache listener for CacheBox
 */
@@ -55,3 +85,5 @@ component{
     }
 }
 ```
+{% endtab %}
+{% endtabs %}
