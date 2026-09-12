@@ -12,7 +12,33 @@ So let's say that we want to listen on the `beforeCacheFactoryShutdown` and on t
 
 **Coldbox Mode Listener**
 
-```javascript
+{% tabs %}
+{% tab title="BoxLang" %}
+```boxlang
+class{
+
+    function configure(){}
+
+    function beforeCacheFactoryShutdown(event, interceptData, buffer){
+        // get factory reference.
+        var cacheFactory = arguments.interceptData.cacheFactory;
+        // Do my stuff here:
+
+        // I can use a log object because ColdBox is cool and injects one for me already.
+        log.info("DUDE, I am going down!!!");
+    }
+
+    function afterCacheElementRemoved(event, interceptData, buffer){
+        var cache = arguments.interceptData.cache;
+        var key = arguments.interceptData.cacheObjectKey;
+
+        log.info("The cache #cache.getName()# just removed the key -> #key#");
+    }
+}
+```
+{% endtab %}
+{% tab title="CFML" %}
+```cfscript
 component{
 
     function configure(){}
@@ -34,10 +60,38 @@ component{
     }
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 **Standalone Mode Listener**
 
-```javascript
+{% tabs %}
+{% tab title="BoxLang" %}
+```boxlang
+class{
+
+    function configure(cacheBox,properties){
+        variables.cacheBox = arguments.cacheBox;
+        variables.properties = arguments.properties;
+
+        log = variables.cacheBox.getLogBox().getLogger( this );
+    }
+
+    function beforeCacheFactoryShutdown(interceptData){
+        // Do your stuff here.
+    }
+
+    function afterCacheElementRemoved(interceptData){
+        var cache = arguments.interceptData.cache;
+        var key = arguments.interceptData.cacheObjectKey;
+
+        log.info("The cache #cache.getName()# just removed the key -> #key#");
+    }
+}
+```
+{% endtab %}
+{% tab title="CFML" %}
+```cfscript
 component{
 
     function configure(cacheBox,properties){
@@ -59,12 +113,14 @@ component{
     }
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 Please note the `configure()` method in the standalone listener. This is necessary when you are using CacheBox listeners outside of a ColdBox application. The `configure()` method receives two parameters:
 
 * `cacheBox` : An instance reference to the CacheBox factory where this listener will be registered with.
 * `properties` : A structure of properties that passes through from the configuration file.
 
-As you can see from the examples above, each Listener component can listen to multiple events. Now you might be asking yourself, in what order are these listeners executed in? Well, they are executed in the order they are declared in either the ColdBox configuration file as interceptors or the CacheBox configuration file as listeners.
+As you can see from the examples above, each Listener class can listen to multiple events. Now you might be asking yourself, in what order are these listeners executed in? Well, they are executed in the order they are declared in either the ColdBox configuration file as interceptors or the CacheBox configuration file as listeners.
 
 > **Caution** Order is **EXTREMELY** important for interceptors/listeners. So please make sure you order them in the declaration file in the order you want them to fire.

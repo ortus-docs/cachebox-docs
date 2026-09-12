@@ -8,7 +8,50 @@ CacheBox is incredibly flexible and if you would like to create your own evictio
 
 ## Sample Policy
 
-```javascript
+{% tabs %}
+{% tab title="BoxLang" %}
+```boxlang
+/**
+* FIFO Eviction Policy Command
+*/
+class extends="cachebox.system.cache.policies.AbstractEvictionPolicy"{
+
+    /**
+    * Constructor
+    * @cacheProvider The associated cache provider of type: cachebox.system.cache.ICacheProvider
+    */
+    FIFO function init( required cacheProvider ){
+        super.init( arguments.cacheProvider );
+
+        return this;
+    }
+
+    /**
+    * Execute the policy
+    */
+    function execute(){
+        var index       = "";
+
+        // Get searchable index
+        try{
+            index = getAssociatedCache()
+                .getObjectStore()
+                .getIndexer()
+                .getSortedKeys( "hits", "numeric", "asc" );
+
+            // process evictions via the abstract class
+            processEvictions( index );
+        }
+        catch(Any e){
+            getLogger().error("Error sorting via store indexer #e.message# #e.detail# #e.stackTrace#.");
+        }
+    }
+
+}
+```
+{% endtab %}
+{% tab title="CFML" %}
+```cfscript
 /**
 * FIFO Eviction Policy Command
 */
@@ -47,6 +90,8 @@ component extends="cachebox.system.cache.policies.AbstractEvictionPolicy"{
 
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Process Evictions
 

@@ -30,6 +30,7 @@
 
 ## Usage
 
+* [Basic Usage](usage/basic-usage.md)
 * [Cache Providers](usage/cache-providers/README.md)
   * [CF Providers](usage/cache-providers/cf-providers.md)
   * [Lucee Providers](usage/cache-providers/lucee-providers.md)

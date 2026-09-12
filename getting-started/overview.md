@@ -19,7 +19,7 @@ description: What is CacheBox?
 * **Solid Core**
   * Multi-Threaded
   * Based on [Java Concurrency Classes](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
-  * Multiple [Eviction Policies](http://en.wikipedia.org/wiki/Cache_algorithms): LRU, LFU and FIFO
+  * Multiple [Eviction Policies](http://en.wikipedia.org/wiki/Cache_algorithms): LRU, LFU, FIFO and LIFO
   * Memory Management & Memory Sensitive Caching based on [Java Soft References](http://docs.oracle.com/javase/7/docs/api/java/lang/ref/SoftReference.html)
   * High Load Tested
   * Fully Documented

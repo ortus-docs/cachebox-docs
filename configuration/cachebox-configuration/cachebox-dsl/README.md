@@ -8,7 +8,34 @@ As we have seen, the CacheBox DSL can be used in different contexts:
 
 No matter how you dice it, it's the same CacheBox Config DSL:
 
-```javascript
+{% tabs %}
+{% tab title="BoxLang" %}
+```boxlang
+**
+* A CacheBox configuration data object
+*/
+class{
+
+    function configure(){
+        cacheBox = {
+        
+            logBoxConfig : "",
+            
+            scopeRegistration : {},
+            
+            defaultCache : {},
+            
+            caches : {}
+            
+            listeners : {}
+
+        };
+    }
+}
+```
+{% endtab %}
+{% tab title="CFML" %}
+```cfscript
 **
 * A CacheBox configuration data object
 */
@@ -31,6 +58,8 @@ component{
     }
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Base Config
 
