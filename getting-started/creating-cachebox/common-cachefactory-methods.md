@@ -10,6 +10,14 @@ Register a new instantiated cache with this cache factory
 
 Add a default named cache to our registry, create it, config it, register it and return it of type: `cachebox`
 
+* `cacheExists(string name)`
+
+Check if a cache with the given name is already registered with this factory
+
+* `createCache(string name, string provider, struct properties)`
+
+Create a new cache using the given provider class path and configuration `properties`, register it with the factory, and return it of type `ICacheProvider`. This is a lower-level alternative to `addDefaultCache()` when you need a non-default provider
+
 * `clearAll()`
 
 Clears all the elements in all the registered caches without de-registrations
@@ -30,6 +38,18 @@ Get a reference to a registered cache in this factory
 
 Get the default cache provider of type cachebox
 
+* `getCacheNames()`
+
+Get an array of the names of all caches currently registered with this factory
+
+* `isColdBoxLinked()`
+
+Check if this CacheFactory instance is linked to a ColdBox application controller
+
+* `getScopeRegistration()`
+
+Get the scope registration configuration struct used to register this factory in a runtime scope (e.g. application/server scope)
+
 * `reapAll()`
 
 A nice way to call reap on all registered caches
@@ -37,6 +57,10 @@ A nice way to call reap on all registered caches
 * `removeCache(string name)`
 
 Try to remove a named cache from this factory
+
+* `removeAll()`
+
+Remove and shutdown all registered caches from this factory
 
 * `replaceCache(any<ICacheProvider> cache, any<ICacheProvider> decoratedCache)`
 
@@ -89,3 +113,7 @@ cachebox.shutdown();
 ```
 
 > **Info** Remember that some of the CacheBox methods announce events. So please see our event model section to see what kind of events you can listen to when working with CacheBox.
+
+## Property Accessors
+
+The `CacheFactory` is declared with `accessors=true`, so it also exposes standard getters for its internal properties: `getFactoryId()`, `getVersion()`, `getConfig()`, `getCaches()`, `getEventManager()`, `getAsyncManager()`, and `getTaskScheduler()`.

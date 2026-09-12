@@ -16,6 +16,7 @@ This is the main interface that each caching engine implementation must implemen
 | `shutdown()` | Shutdown the cache provider and release resources |
 | `get( required objectKey )` | Get an object from cache; returns an empty value if not found or expired |
 | `getQuiet( required objectKey )` | Get an object without touching access statistics |
+| `getOrSet( required objectKey, required produce, [timeout], [lastAccessTimeout], [extra] )` | Get an object from cache, or, if missing, invoke the `produce` closure/UDF, store its result and return it — all under an exclusive lock to prevent cache stampedes. See [Basic Usage](../../usage/basic-usage.md) for a full walkthrough |
 | `set( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object in cache with optional timeout settings |
 | `setQuiet( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object without updating statistics |
 | `clear( required objectKey )` | Remove a specific object from cache |
@@ -32,3 +33,17 @@ This is the main interface that each caching engine implementation must implemen
 | `reap()` | Run the cache reap routine to remove expired objects |
 | `getStats()` | Get the `IStats` statistics object for this provider |
 | `clearStatistics()` | Reset all statistics counters to zero |
+| `getMemento()` | Get a struct representation of the provider's internal state (excludes functions) |
+| `inThread()` | Returns `true` if the current call is executing inside a spawned thread rather than the main request thread |
+
+## Bulk / Multi-Key Operations
+
+In addition to the single-key methods above, every provider also supports these convenience methods for operating on multiple keys at once. Each accepts a comma-delimited list or an array of keys, plus an optional `prefix` to prepend to every key.
+
+| Method | Description |
+| --- | --- |
+| `getMulti( required keys, [prefix] )` | Get multiple objects at once. Returns a struct of `{key: value}`. Keys not found come back as `null` in the struct |
+| `setMulti( required struct mapping, [timeout], [lastAccessTimeout], [prefix] )` | Store multiple objects at once from a `{key: value}` struct |
+| `clearMulti( required keys, [prefix] )` | Clear multiple keys at once. Returns a struct of `{key: boolean}` indicating whether each key was removed |
+| `lookupMulti( required keys, [prefix] )` | Check existence of multiple keys at once. Returns a struct of `{key: boolean}` |
+| `getCachedObjectMetadataMulti( required keys, [prefix] )` | Get the metadata struct for multiple keys at once. Returns a struct of `{key: metadataStruct}` |

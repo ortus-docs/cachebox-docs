@@ -25,6 +25,7 @@ However, if you are using CacheBox within a ColdBox application, the provider wi
 * **LFU** (Least Frequently Used)
 * **LRU** (Least Recently Used)
 * **FIFO** (First In First Out)
+* **LIFO** (Last In First Out)
 * **Custom**: You can also build your own and pass the instantiation path in this setting
 
 ## Object Stores

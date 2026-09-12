@@ -53,6 +53,7 @@ All CacheBox providers implement the `ICacheProvider` interface. The table below
 | --- | --- |
 | `get( required objectKey )` | Get an object from cache; returns an empty value if not found or expired |
 | `getQuiet( required objectKey )` | Get an object without touching access statistics |
+| `getOrSet( required objectKey, required produce, [timeout], [lastAccessTimeout], [extra] )` | Get an object from cache, or produce it via the `produce` closure/UDF, cache it and return it if missing. See [Basic Usage](../basic-usage.md) |
 | `set( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object in cache with optional timeout (minutes) |
 | `setQuiet( required objectKey, required object, [timeout], [lastAccessTimeout], [extra] )` | Store an object without updating statistics |
 | `clear( required objectKey )` | Remove a specific object from cache |
@@ -69,6 +70,10 @@ All CacheBox providers implement the `ICacheProvider` interface. The table below
 | `reap()` | Run the cache reap routine to remove expired objects |
 | `getStats()` | Get the `IStats` statistics object for this provider |
 | `clearStatistics()` | Reset all statistics counters to zero |
+| `getMemento()` | Get a struct representation of the provider's internal state (excludes functions) |
+| `inThread()` | Returns `true` if executing inside a spawned thread |
+
+For the bulk `getMulti()`/`setMulti()`/`clearMulti()`/`lookupMulti()`/`getCachedObjectMetadataMulti()` methods, see the [ICacheProvider](../../for-the-geeks/cachebox-architecture/icacheprovider.md) reference.
 
 ### Usage Examples
 
@@ -81,6 +86,9 @@ cache.set( "myKey", myObject, 60 );
 
 // Retrieve an object
 value = cache.get( "myKey" );
+
+// Get it from cache, or produce, cache and return it if missing
+value = cache.getOrSet( "myKey", () => myService.produceExpensiveObject(), 60 );
 
 // Check existence without retrieval
 if ( cache.lookup( "myKey" ) ) {
