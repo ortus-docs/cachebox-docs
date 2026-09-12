@@ -103,14 +103,14 @@ cacheBox = new cachebox.system.cache.CacheFactory( );
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );
 
-// Create the config object as a CacheBox DSL Simple CFC
+// Create the config object as a CacheBox DSL Simple Class
 dataCFC = new MyCacheBoxConfig();
 config = new cachebox.system.cache.config.CacheBoxConfig( CFCConfig=dataCFC );
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );
 
 
-// Create the config object as a CacheBox DSL Simple CFC path only
+// Create the config object as a CacheBox DSL Simple Class path only
 config = new cachebox.system.cache.config.CacheBoxConfig( CFCConfigPath="MyCacheBoxConfig" );
 // Create CacheBox instance
 cacheBox = new cachebox.system.cache.CacheFactory( config );

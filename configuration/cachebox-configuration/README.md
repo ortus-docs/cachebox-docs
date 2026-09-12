@@ -2,7 +2,7 @@
 
 CacheBox comes pre-configured for operation for caching using a `default` cache.  However, you can customize CacheBox using different strategies by levarging the [CacheBox Configuration DSL](cachebox-dsl/).
 
-When you are in a ColdBox application, you will have a `cachebox` structure in your `ColdBox.cfc` already that you can use, or you can create a portable CFC as well and place it in `config/CacheBox.cfc`
+When you are in a ColdBox application, you will have a `cachebox` structure in your `ColdBox.cfc` already that you can use, or you can create a portable class as well and place it in `config/CacheBox.cfc`
 
 {% hint style="success" %}
 The cool thing about this CacheBox DSL is that it is the same whether you are using CacheBox in ColdBox applications or any other framework or non-framework ColdFusion application.&#x20;
@@ -11,7 +11,7 @@ The cool thing about this CacheBox DSL is that it is the same whether you are us
 Configuration can be done in the following ways:
 
 1. **No configuration:** Uses the _default configuration_ shown below
-2. **Portable CFC:** Creating a portable data CFC using the CacheBox DSL in a `configure()` method
+2. **Portable Class:** Creating a portable data class using the CacheBox DSL in a `configure()` method
 3. **Programmatic Config:** Creating the CacheBox`Config` object and interacting with its methods programmatically
 4. **CacheBox DSL Struct:** Passing a struct literal into CacheBox, using the CacheBox DSL.
 
@@ -140,9 +140,9 @@ function configure(){
 
 
 
-### 2. Portable CFC
+### 2. Portable Class
 
-You can create a CFC with a single `configure` method with the CacheBox configuration in a variable called `cachebox` using the CacheBox DSL.
+You can create a class with a single `configure` method with the CacheBox configuration in a variable called `cachebox` using the CacheBox DSL.
 
 {% tabs %}
 {% tab title="BoxLang" %}

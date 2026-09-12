@@ -2,7 +2,7 @@
 
 As we have seen, the CacheBox DSL can be used in different contexts:
 
-* Portable CFC with a `configure()` method in a `cachebox` variable
+* Portable class with a `configure()` method in a `cachebox` variable
 * ColdBox config inside the `configure()` method in a `cachebox` variable
 * A struct literal is sent into the constructor of CacheBox
 
@@ -239,7 +239,7 @@ The `caches` element is a configuration data structure for aggregating named cac
 ```javascript
 {
     // The path to the listener
-    class="path.to.CFC",
+    class="path.to.Class",
     // A unique name for the listener
     name="UniqueName",
     // A structure of name-value pairs for configuring this interceptor
@@ -248,7 +248,7 @@ The `caches` element is a configuration data structure for aggregating named cac
 { class="Timer", name="CoolTimer" }
 ```
 
-CacheBox has an [event-driven model](../../../advanced-usage/cachebox-event-model/) where you can listen to cache operations and cache factory operations.  You do so with listener CFCs that you register in your config, mostly for standalone operation. In ColdBox, all interceptors have access to all events.
+CacheBox has an [event-driven model](../../../advanced-usage/cachebox-event-model/) where you can listen to cache operations and cache factory operations.  You do so with listener classes that you register in your config, mostly for standalone operation. In ColdBox, all interceptors have access to all events.
 
 {% hint style="danger" %}
 **Caution:** Please note that the order of declaration is the same as the order of execution, so it matters, just like ColdBox Interceptors. Using CacheBox within a ColdBox application, you can also register listeners as interceptors in your ColdBox configuration file.&#x20;
