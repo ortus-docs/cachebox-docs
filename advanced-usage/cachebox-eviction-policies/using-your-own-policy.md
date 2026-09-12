@@ -10,7 +10,7 @@ CacheBox is incredibly flexible and if you would like to create your own evictio
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 /**
 * FIFO Eviction Policy Command
 */

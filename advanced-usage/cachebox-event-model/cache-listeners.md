@@ -14,7 +14,7 @@ So let's say that we want to listen on the `beforeCacheFactoryShutdown` and on t
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 class{
 
     function configure(){}
@@ -67,7 +67,7 @@ component{
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 class{
 
     function configure(cacheBox,properties){

@@ -29,7 +29,7 @@ This is the default configuration when CacheBox is created with no config.  Cach
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 /**
  * Copyright Since 2005 ColdBox Framework by Luis Majano and Ortus Solutions, Corp
  * www.ortussolutions.com
@@ -146,7 +146,7 @@ You can create a class with a single `configure` method with the CacheBox config
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 class{
 /**
  * Configure CacheBox for ColdBox Application Operation

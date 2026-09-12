@@ -10,7 +10,7 @@ No matter how you dice it, it's the same CacheBox Config DSL:
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 **
 * A CacheBox configuration data object
 */

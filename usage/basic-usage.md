@@ -82,7 +82,7 @@ This effectively gives you **cache stampede protection** for free.
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 cache = cacheBox.getDefaultCache()
 
 // Get the object from cache, or produce, cache and return it if missing
@@ -107,7 +107,7 @@ You can also pass extra provider-specific arguments via the `extra` struct:
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 data = cache.getOrSet(
     objectKey = "topSellingProducts",
     produce = () => productService.getTopSellers(),

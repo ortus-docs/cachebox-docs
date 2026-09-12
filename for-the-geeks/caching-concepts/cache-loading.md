@@ -31,7 +31,7 @@ This is great for small content pieces and works well for applications. However,
 
 {% tabs %}
 {% tab title="BoxLang" %}
-```boxlang
+```js
 /**
 * A cache listener for CacheBox
 */
