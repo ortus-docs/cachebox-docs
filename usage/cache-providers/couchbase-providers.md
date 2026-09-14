@@ -1,5 +1,9 @@
 # Couchbase Providers
 
+{% hint style="danger" %}
+**Legacy / No Longer Supported**: The commercial Railo/Lucee Couchbase extension described on this page has been discontinued and is no longer sold or maintained by Ortus Solutions. There is no corresponding Couchbase cache provider shipped in the current CacheBox source (`system/cache`). This page is kept for historical reference only — please do not use it as a guide for new projects. If you need a distributed/remote cache today, look at the shipped [Cache Providers](README.md) or build your own via `ICacheProvider`.
+{% endhint %}
+
 ### Ortus Couchbase Extension
 
 [Ortus Solutions](http://www.ortussolutions.com/products/couchbase-railo), the makers of CacheBox, have created a commercial extension for the open source CFML engines Railo and Lucee to support caching distribution features via Couchbase ([https://www.ortussolutions.com/products/couchbase-lucee](https://www.ortussolutions.com/products/couchbase-lucee)).

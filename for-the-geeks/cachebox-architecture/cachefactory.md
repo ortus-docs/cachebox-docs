@@ -19,7 +19,13 @@ cachebox = new cachebox.system.cache.CacheFactory();
 | `getDefaultCache()` | Get the default cache provider |
 | `addCache( required ICacheProvider cache )` | Register a new instantiated cache provider with the factory |
 | `addDefaultCache( required string name )` | Create, configure, register, and return a new cache using the default settings |
+| `createCache( required name, required provider, struct properties )` | Create a new cache from the given provider class path and properties, register it with the factory, and return it |
+| `cacheExists( required name )` | Check if a cache with the given name is already registered |
+| `getCacheNames()` | Get an array of the names of all currently registered caches |
+| `isColdBoxLinked()` | Check if this factory instance is linked to a ColdBox application controller |
+| `getScopeRegistration()` | Get the scope registration configuration struct for this factory |
 | `removeCache( required string name )` | Remove a named cache from the factory and shut it down |
+| `removeAll()` | Remove and shutdown all registered caches from the factory |
 | `replaceCache( required ICacheProvider cache, required ICacheProvider decoratedCache )` | Replace a registered named cache with a decorated version of the same name |
 | `registerListeners()` | Register all configured event listeners from the configuration with the ColdBox Interceptor Service |
 | `shutdownCache( required string name )` | Shutdown a specific named cache provider and remove it from the factory |
@@ -28,3 +34,5 @@ cachebox = new cachebox.system.cache.CacheFactory();
 | `reapAll()` | Call `reap()` on all registered caches |
 | `expireAll()` | Expire all objects in all registered caches without de-registration |
 | `clearAll()` | Clear all objects in all registered caches without de-registration |
+
+The factory is declared with `accessors=true`, so it also exposes standard getters for its internal properties: `getFactoryId()`, `getVersion()`, `getConfig()`, `getCaches()`, `getEventManager()`, `getAsyncManager()`, and `getTaskScheduler()`.

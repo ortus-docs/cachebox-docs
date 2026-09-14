@@ -15,13 +15,17 @@ description: >-
   \_____\__,_|\___|_| |_|\___|____/ \___/_/\_\
 ```
 
-## CacheBox Manual - Version 7.x
+## CacheBox Manual - Version 8.x
 
 ![CacheBox](.gitbook/assets/CacheBoxLogo.png)
 
-CacheBox is a cache aggregator, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging (via [LogBox](http://logbox.ortusbooks.com)), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API.
+CacheBox is a cache aggregator for **BoxLang** and CFML, in which you can aggregate different caching engines or types of the same engine into one single umbrella. It gives you built in logging (via [LogBox](http://logbox.ortusbooks.com)), an event model, synchronization, shutdown/startup procedures, reporting, interaction consoles and best of all a cache agnostic API.
 
-**CacheBox is a standalone framework for ColdFusion (CFML) applications and it is also bundled with the ColdBox Platform.**
+**CacheBox is a standalone framework for BoxLang and CFML applications, and it is also bundled with the ColdBox Platform.**
+
+### Explore CacheBox
+
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>🗄️ <strong>Cache-Agnostic API</strong></td><td>One API (<code>get</code>, <code>set</code>, <code>getOrSet</code>, and more) across every supported provider</td><td><a href="usage/basic-usage.md">basic-usage.md</a></td></tr><tr><td>🔌 <strong>Multiple Providers</strong></td><td>RAM, BoxLang-native, Lucee, Adobe ColdFusion, and mock providers out of the box</td><td><a href="usage/cache-providers/README.md">README.md</a></td></tr><tr><td>♻️ <strong>Eviction Policies</strong></td><td>LRU, LFU, FIFO, and LIFO eviction, or bring your own policy</td><td><a href="advanced-usage/cachebox-eviction-policies/README.md">README.md</a></td></tr><tr><td>📣 <strong>Event Model</strong></td><td>Listen for cache lifecycle events across the factory and every provider</td><td><a href="advanced-usage/cachebox-event-model/README.md">README.md</a></td></tr></tbody></table>
 
 ## Versioning
 
